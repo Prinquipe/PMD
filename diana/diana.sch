@@ -1,0 +1,64 @@
+EESchema Schematic File Version 4
+LIBS:diana-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L cbm-steve:27C1024 U?
+U 1 1 5C0315DA
+P 2186 2212
+F 0 "U?" H 2186 3390 50  0000 C CNN
+F 1 "27C1024" H 2186 3299 50  0000 C CNN
+F 2 "" H 2186 2212 50  0000 C CNN
+F 3 "" H 2186 2212 50  0000 C CNN
+	1    2186 2212
+	1    0    0    -1  
+$EndComp
+$Comp
+L PMD:62512 U?
+U 1 1 5C051C6D
+P 4460 2377
+F 0 "U?" H 4460 1755 50  0000 C CNN
+F 1 "62512" H 4460 1664 50  0000 C CNN
+F 2 "" H 4460 1777 50  0001 C CNN
+F 3 "" H 4460 1777 50  0001 C CNN
+	1    4460 2377
+	1    0    0    -1  
+$EndComp
+Wire Bus Line
+	737  875  4011 875 
+Wire Bus Line
+	4011 875  4011 2180
+Wire Bus Line
+	1488 880  1488 2812
+Wire Bus Line
+	2886 2812 2886 1308
+Wire Bus Line
+	2886 1308 2887 1308
+Wire Bus Line
+	4912 2178 4912 1427
+Wire Bus Line
+	4912 1427 4911 1427
+$Comp
+L PMD:74AC11138 Decodificator?
+U 1 1 5C051F25
+P 1720 5304
+F 0 "Decodificator?" H 1720 6500 59  0000 C CNN
+F 1 "74AC11138" H 1720 6395 59  0000 C CNN
+F 2 "" H 1720 5154 59  0001 C CNN
+F 3 "" H 1720 5154 59  0001 C CNN
+	1    1720 5304
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
