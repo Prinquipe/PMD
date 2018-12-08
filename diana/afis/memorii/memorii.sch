@@ -1,0 +1,528 @@
+EESchema Schematic File Version 4
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L cbm-steve:27C1024 EPROM
+U 1 1 5CC02155
+P 3243 2175
+F 0 "EPROM" H 3243 3353 50  0001 C BNN
+F 1 "27C1024" H 3243 3261 50  0001 C CNN
+F 2 "" H 3243 2175 50  0000 C CNN
+F 3 "" H 3243 2175 50  0000 C CNN
+	1    3243 2175
+	1    0    0    -1  
+$EndComp
+$Comp
+L PMD:62256 SRAM0
+U 1 1 5CC02311
+P 7307 3930
+F 0 "SRAM0" H 5207 4358 50  0000 C CNN
+F 1 "62512" H 5207 4267 50  0000 C CNN
+F 2 "" H 5357 4330 50  0001 C CNN
+F 3 "" H 5357 4330 50  0001 C CNN
+	1    7307 3930
+	1    0    0    -1  
+$EndComp
+$Comp
+L PMD:62256 SRAM1
+U 1 1 5CC02532
+P 9035 3922
+F 0 "SRAM1" H 6935 4350 50  0000 C CNN
+F 1 "62512" H 6935 4259 50  0000 C CNN
+F 2 "" H 7085 4322 50  0001 C CNN
+F 3 "" H 7085 4322 50  0001 C CNN
+	1    9035 3922
+	1    0    0    -1  
+$EndComp
+Wire Bus Line
+	2380 2776 2380 1074
+Wire Wire Line
+	2544 2775 2543 2775
+Connection ~ 2543 2775
+Wire Wire Line
+	2543 2775 2379 2775
+Wire Wire Line
+	2544 2675 2543 2675
+Connection ~ 2543 2675
+Wire Wire Line
+	2543 2675 2381 2675
+Wire Wire Line
+	2544 2575 2543 2575
+Wire Wire Line
+	2544 2475 2543 2475
+Wire Wire Line
+	2546 2375 2543 2375
+Wire Wire Line
+	2546 2275 2543 2275
+Wire Wire Line
+	2545 2175 2543 2175
+Wire Wire Line
+	2545 2075 2543 2075
+Wire Wire Line
+	2543 1975 2379 1975
+Wire Wire Line
+	2543 1875 2381 1875
+Wire Wire Line
+	2544 1775 2543 1775
+Wire Wire Line
+	2544 1675 2543 1675
+Wire Wire Line
+	2546 1575 2543 1575
+Wire Wire Line
+	2546 1475 2543 1475
+Wire Wire Line
+	2545 1375 2543 1375
+Wire Wire Line
+	2545 1275 2543 1275
+Wire Wire Line
+	4608 2680 4607 2680
+Wire Wire Line
+	4609 2580 4607 2580
+Wire Wire Line
+	4609 2480 4607 2480
+Wire Wire Line
+	4611 2380 4607 2380
+Wire Wire Line
+	4611 2280 4607 2280
+Wire Wire Line
+	4610 2180 4607 2180
+Wire Wire Line
+	4610 2080 4607 2080
+Wire Wire Line
+	4608 1980 4607 1980
+Wire Wire Line
+	4608 1880 4607 1880
+Wire Wire Line
+	4609 1780 4607 1780
+Wire Wire Line
+	4609 1680 4607 1680
+Wire Wire Line
+	4611 1580 4607 1580
+Wire Wire Line
+	4611 1480 4607 1480
+Wire Wire Line
+	4610 1380 4607 1380
+Wire Wire Line
+	4610 1280 4607 1280
+Wire Wire Line
+	6335 2672 6173 2672
+Wire Wire Line
+	6336 2572 6335 2572
+Wire Wire Line
+	6336 2472 6335 2472
+Wire Wire Line
+	6338 2372 6335 2372
+Wire Wire Line
+	6338 2272 6335 2272
+Wire Wire Line
+	6337 2172 6335 2172
+Wire Wire Line
+	6337 2072 6335 2072
+Wire Wire Line
+	6335 1972 6171 1972
+Wire Wire Line
+	6335 1872 6173 1872
+Wire Wire Line
+	6336 1772 6335 1772
+Wire Wire Line
+	6336 1672 6335 1672
+Wire Wire Line
+	6338 1572 6335 1572
+Wire Wire Line
+	6338 1472 6335 1472
+Wire Wire Line
+	6337 1372 6335 1372
+Wire Wire Line
+	6337 1272 6335 1272
+Wire Bus Line
+	2382 1070 4447 1070
+Wire Bus Line
+	4447 1070 4447 2679
+Wire Bus Line
+	6172 2672 6172 1071
+Wire Bus Line
+	6172 1071 4446 1071
+Wire Bus Line
+	5806 1281 5806 2232
+Wire Bus Line
+	7533 1272 7533 2249
+Text Notes 7622 2254 1    50   ~ 10
+D7-D0
+Text Notes 5897 2290 1    50   ~ 10
+D15-D8
+Wire Bus Line
+	3947 2895 3947 1275
+Text Notes 4052 2122 1    50   ~ 10
+D15-D0
+Text Notes 2552 945  0    59   ~ 12
+Magistrala de adrese
+$Comp
+L power:VCC #PWR?
+U 1 1 5CC0DEFE
+P 5207 930
+F 0 "#PWR?" H 5207 780 50  0001 C CNN
+F 1 "VCC" H 5224 1103 50  0000 C CNN
+F 2 "" H 5207 930 50  0001 C CNN
+F 3 "" H 5207 930 50  0001 C CNN
+	1    5207 930 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR?
+U 1 1 5CC0DFE4
+P 6935 922
+F 0 "#PWR?" H 6935 772 50  0001 C CNN
+F 1 "VCC" H 6952 1095 50  0000 C CNN
+F 2 "" H 6935 922 50  0001 C CNN
+F 3 "" H 6935 922 50  0001 C CNN
+	1    6935 922 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5CC0E087
+P 6335 3222
+F 0 "#PWR?" H 6335 2972 50  0001 C CNN
+F 1 "GND" H 6340 3049 50  0000 C CNN
+F 2 "" H 6335 3222 50  0001 C CNN
+F 3 "" H 6335 3222 50  0001 C CNN
+	1    6335 3222
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5CC0E13F
+P 4607 3230
+F 0 "#PWR?" H 4607 2980 50  0001 C CNN
+F 1 "GND" H 4612 3057 50  0000 C CNN
+F 2 "" H 4607 3230 50  0001 C CNN
+F 3 "" H 4607 3230 50  0001 C CNN
+	1    4607 3230
+	1    0    0    -1  
+$EndComp
+$Comp
+L afis_lib:74x138 Decoder
+U 1 1 5CC0E8BA
+P 2384 5130
+F 0 "Decoder" H 2334 5916 59  0000 C CNN
+F 1 "74x138" H 2334 5811 59  0000 C CNN
+F 2 "" H 2284 5130 59  0001 C CNN
+F 3 "" H 2284 5130 59  0001 C CNN
+	1    2384 5130
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2035 4580 2034 4580
+Connection ~ 2034 4580
+Wire Wire Line
+	2034 4580 1773 4580
+Wire Wire Line
+	2035 4630 2034 4630
+Connection ~ 2034 4630
+Wire Wire Line
+	2034 4630 1771 4630
+Wire Wire Line
+	2036 4680 2034 4680
+Connection ~ 2034 4680
+Wire Wire Line
+	2034 4680 1765 4680
+Text Label 1582 4604 0    47   ~ 9
+A19
+Text Label 1581 4660 0    47   ~ 9
+A18
+Text Label 1580 4718 0    47   ~ 9
+A17
+Wire Wire Line
+	9386 3192 7928 3192
+Wire Wire Line
+	7928 3192 7928 3876
+Wire Wire Line
+	2227 3876 2227 2975
+Wire Wire Line
+	2227 2975 2543 2975
+Connection ~ 2543 2975
+Wire Wire Line
+	2543 2975 2547 2975
+Wire Wire Line
+	5805 3179 5912 3179
+Wire Wire Line
+	5912 3179 5912 3874
+Wire Wire Line
+	7535 3172 7928 3172
+Wire Wire Line
+	7928 3172 7928 3191
+Text Label 9437 3213 0    47   ~ 9
+RD
+Wire Wire Line
+	2632 4679 2911 4679
+Wire Wire Line
+	2911 4679 2911 4042
+Wire Wire Line
+	2911 4042 2354 4042
+Wire Wire Line
+	2354 4042 2354 3075
+Wire Wire Line
+	2354 3075 2543 3075
+Connection ~ 2543 3075
+Wire Wire Line
+	2543 3075 2544 3075
+Wire Wire Line
+	2633 4730 2634 4730
+Wire Wire Line
+	5972 4730 5972 4729
+Connection ~ 2634 4730
+Wire Wire Line
+	7758 3271 7758 4728
+Wire Wire Line
+	5806 3280 5807 3280
+Wire Wire Line
+	5940 3280 5940 4729
+Connection ~ 5807 3280
+Wire Wire Line
+	5807 3280 5940 3280
+Wire Wire Line
+	7758 4730 7758 4729
+$Comp
+L 74xGxx:74AUC1G32 OR0
+U 1 1 5CC2ECEF
+P 2279 5590
+F 0 "OR0" H 2254 5857 50  0000 C CNN
+F 1 "74AUC1G32" H 2254 5766 50  0000 C CNN
+F 2 "" H 2279 5590 50  0001 C CNN
+F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 2279 5590 50  0001 C CNN
+	1    2279 5590
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xGxx:74AUC1G32 OR1
+U 1 1 5CC2ED44
+P 2295 6014
+F 0 "OR1" H 2270 6281 50  0000 C CNN
+F 1 "74AUC1G32" H 2270 6190 50  0000 C CNN
+F 2 "" H 2295 6014 50  0001 C CNN
+F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 2295 6014 50  0001 C CNN
+	1    2295 6014
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1981 5639 1845 5639
+Wire Wire Line
+	1845 5639 1845 5811
+Wire Wire Line
+	1845 5964 1995 5964
+Connection ~ 1995 5964
+Wire Wire Line
+	1995 5964 1997 5964
+Wire Wire Line
+	1995 6064 1765 6064
+Wire Wire Line
+	1979 5540 1745 5540
+Text Label 1587 5570 0    39   ~ 8
+~BHE
+Text Label 1637 6101 0    47   ~ 9
+~A0
+Wire Wire Line
+	1845 5811 1666 5811
+Connection ~ 1845 5811
+Wire Wire Line
+	1845 5811 1845 5964
+Text Label 1538 5839 0    47   ~ 9
+~WR
+Wire Wire Line
+	2528 5590 2529 5590
+Wire Wire Line
+	5993 5590 5993 3080
+Wire Wire Line
+	5993 3080 5807 3080
+Connection ~ 2529 5590
+Wire Wire Line
+	2529 5590 5993 5590
+Connection ~ 5807 3080
+Wire Wire Line
+	5807 3080 5806 3080
+Wire Wire Line
+	2543 6014 2545 6014
+Wire Wire Line
+	7970 6014 7970 3072
+Wire Wire Line
+	7530 3072 7535 3072
+Connection ~ 2545 6014
+Wire Wire Line
+	2545 6014 7970 6014
+Connection ~ 7535 3072
+Wire Wire Line
+	7535 3072 7970 3072
+Connection ~ 2543 1275
+Wire Wire Line
+	2543 1275 2383 1275
+Connection ~ 2543 1375
+Wire Wire Line
+	2543 1375 2381 1375
+Connection ~ 2543 1475
+Wire Wire Line
+	2543 1475 2384 1475
+Connection ~ 2543 1575
+Wire Wire Line
+	2543 1575 2382 1575
+Connection ~ 2543 1675
+Wire Wire Line
+	2543 1675 2382 1675
+Connection ~ 2543 1775
+Wire Wire Line
+	2543 1775 2380 1775
+Connection ~ 2543 2075
+Wire Wire Line
+	2543 2075 2383 2075
+Connection ~ 2543 2175
+Wire Wire Line
+	2543 2175 2381 2175
+Connection ~ 2543 2275
+Wire Wire Line
+	2543 2275 2384 2275
+Connection ~ 2543 2375
+Wire Wire Line
+	2543 2375 2382 2375
+Connection ~ 2543 2475
+Wire Wire Line
+	2543 2475 2382 2475
+Connection ~ 2543 2575
+Wire Wire Line
+	2543 2575 2380 2575
+Connection ~ 4607 1280
+Wire Wire Line
+	4607 1280 4448 1280
+Connection ~ 4607 1380
+Wire Wire Line
+	4607 1380 4446 1380
+Connection ~ 4607 1480
+Wire Wire Line
+	4607 1480 4449 1480
+Connection ~ 4607 1580
+Wire Wire Line
+	4607 1580 4447 1580
+Connection ~ 4607 1680
+Wire Wire Line
+	4607 1680 4447 1680
+Connection ~ 4607 1780
+Wire Wire Line
+	4607 1780 4445 1780
+Connection ~ 4607 1880
+Wire Wire Line
+	4607 1880 4446 1880
+Connection ~ 4607 1980
+Wire Wire Line
+	4607 1980 4444 1980
+Connection ~ 4607 2080
+Wire Wire Line
+	4607 2080 4448 2080
+Connection ~ 4607 2180
+Wire Wire Line
+	4607 2180 4446 2180
+Connection ~ 4607 2280
+Wire Wire Line
+	4607 2280 4449 2280
+Connection ~ 4607 2380
+Wire Wire Line
+	4607 2380 4447 2380
+Connection ~ 4607 2480
+Wire Wire Line
+	4607 2480 4447 2480
+Connection ~ 4607 2580
+Wire Wire Line
+	4607 2580 4445 2580
+Connection ~ 4607 2680
+Wire Wire Line
+	4607 2680 4446 2680
+Connection ~ 6335 1272
+Wire Wire Line
+	6335 1272 6175 1272
+Connection ~ 6335 1372
+Wire Wire Line
+	6335 1372 6173 1372
+Connection ~ 6335 1472
+Wire Wire Line
+	6335 1472 6176 1472
+Connection ~ 6335 1572
+Wire Wire Line
+	6335 1572 6174 1572
+Connection ~ 6335 1672
+Wire Wire Line
+	6335 1672 6174 1672
+Connection ~ 6335 1772
+Wire Wire Line
+	6335 1772 6172 1772
+Connection ~ 6335 2072
+Wire Wire Line
+	6335 2072 6175 2072
+Connection ~ 6335 2172
+Wire Wire Line
+	6335 2172 6173 2172
+Connection ~ 6335 2272
+Wire Wire Line
+	6335 2272 6176 2272
+Connection ~ 6335 2372
+Wire Wire Line
+	6335 2372 6174 2372
+Connection ~ 6335 2472
+Wire Wire Line
+	6335 2472 6174 2472
+Connection ~ 6335 2572
+Wire Wire Line
+	6335 2572 6172 2572
+Wire Wire Line
+	2227 3876 7928 3876
+Wire Wire Line
+	7533 3271 7758 3271
+Wire Wire Line
+	2634 4730 7758 4730
+Wire Wire Line
+	1808 4930 2034 4930
+Connection ~ 2034 4930
+Wire Wire Line
+	2034 4930 2035 4930
+Wire Wire Line
+	2035 4980 2034 4980
+Connection ~ 2034 4980
+Wire Wire Line
+	2034 4980 1827 4980
+Wire Wire Line
+	1808 5004 1809 5004
+Wire Wire Line
+	1827 5029 1818 5029
+Wire Wire Line
+	1827 4980 1827 5029
+Wire Wire Line
+	1808 5030 1817 5030
+Wire Wire Line
+	1808 4930 1808 5030
+$Comp
+L power:GND #PWR?
+U 1 1 5CCB3092
+P 1817 5030
+F 0 "#PWR?" H 1817 4780 50  0001 C CNN
+F 1 "GND" H 1822 4857 50  0000 C CNN
+F 2 "" H 1817 5030 50  0001 C CNN
+F 3 "" H 1817 5030 50  0001 C CNN
+	1    1817 5030
+	1    0    0    -1  
+$EndComp
+Connection ~ 1817 5030
+Wire Wire Line
+	1817 5030 1818 5030
+Wire Wire Line
+	2035 5030 2035 5182
+Text Label 2024 5248 1    47   ~ 9
+M\~IO
+$EndSCHEMATC
