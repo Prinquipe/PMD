@@ -284,7 +284,7 @@ L pmd3_procesor-rescue:8086_Max_Mode-MCU_Intel U?
 U 1 1 5C1E9592
 P 7550 5200
 F 0 "U?" H 7550 7178 50  0000 C CNN
-F 1 "8086_Max_Mode" H 7550 7087 50  0000 C CNN
+F 1 "8086_Min_Mode" H 7550 7087 50  0000 C CNN
 F 2 "Package_DIP:DIP-40_W15.24mm" H 7600 5300 50  0001 C CIN
 F 3 "http://datasheets.chipdb.org/Intel/x86/808x/datashts/8086/231455-006.pdf" H 7550 5250 50  0001 C CNN
 	1    7550 5200

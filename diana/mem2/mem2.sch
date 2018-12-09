@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:mem2-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -183,33 +184,20 @@ Magistrala de adrese
 Text Notes 4648 2400 1    50   ~ 0
 D15-D0
 Text Notes 6336 2120 1    50   ~ 0
-D15-D0
+D15-D8
 Text Notes 7852 2188 1    50   ~ 0
-D15-D0
+D7-D0
 Text GLabel 3141 3498 3    50   Input ~ 0
 "1"
-Wire Wire Line
-	1944 4146 5072 4146
-Wire Wire Line
-	5072 4146 5072 4145
 Wire Wire Line
 	5072 2901 5295 2901
 Connection ~ 5295 2901
 Wire Wire Line
 	5295 2901 5297 2901
-Wire Wire Line
-	5072 4145 6688 4145
-Wire Wire Line
-	6688 4145 6688 2885
-Wire Wire Line
-	6688 2885 6801 2885
-Connection ~ 5072 4145
-Wire Wire Line
-	5072 4145 5072 2901
 Connection ~ 6801 2885
 Wire Wire Line
 	6801 2885 6803 2885
-Text Label 1944 4146 0    50   ~ 0
+Text Label 2174 6535 0    50   ~ 0
 ~WR
 Wire Wire Line
 	4535 5101 4812 5101
@@ -228,43 +216,89 @@ Wire Wire Line
 	4534 5201 4535 5201
 Connection ~ 4535 5201
 Wire Wire Line
-	4535 5201 5331 5201
-$Comp
-L 74xGxx:74AUC1G18 U?
-U 1 1 5C0DA3E4
-P 5531 5201
-F 0 "U?" H 5531 5468 50  0000 C CNN
-F 1 "74AUC1G18" H 5531 5377 50  0000 C CNN
-F 2 "" H 5531 5201 50  0001 C CNN
-F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 5531 5201 50  0001 C CNN
-	1    5531 5201
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5730 5151 5731 5151
-Wire Wire Line
-	5892 5151 5892 3317
-Wire Wire Line
 	5892 3317 5112 3317
 Wire Wire Line
 	5112 3317 5112 2801
 Wire Wire Line
 	5112 2801 5295 2801
-Connection ~ 5731 5151
-Wire Wire Line
-	5731 5151 5892 5151
 Connection ~ 5295 2801
 Wire Wire Line
 	5295 2801 5298 2801
-Wire Wire Line
-	5731 5251 6658 5251
-Wire Wire Line
-	6658 5251 6658 2785
 Wire Wire Line
 	6658 2785 6801 2785
 Connection ~ 6801 2785
 Wire Wire Line
 	6801 2785 6802 2785
-Text Label 5331 5352 2    50   ~ 0
-A16
+Text Label 2319 6840 2    50   ~ 0
+A0
+Wire Wire Line
+	5329 5202 5329 3468
+Wire Wire Line
+	5329 3468 4986 3468
+Wire Wire Line
+	4986 3468 4986 2900
+Wire Wire Line
+	4986 2900 5075 2900
+Wire Wire Line
+	6504 5201 6504 2885
+Wire Wire Line
+	6504 2885 6801 2885
+Wire Wire Line
+	4535 5201 6504 5201
+$Comp
+L 74xx:74LS32 U?
+U 1 1 5C0E5DEB
+P 3006 6246
+F 0 "U?" H 3006 6571 50  0000 C CNN
+F 1 "74LS32" H 3006 6480 50  0000 C CNN
+F 2 "" H 3006 6246 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS32" H 3006 6246 50  0001 C CNN
+	1    3006 6246
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS32 U?
+U 1 1 5C0E5E41
+P 3006 6720
+F 0 "U?" H 3006 7045 50  0000 C CNN
+F 1 "74LS32" H 3006 6954 50  0000 C CNN
+F 2 "" H 3006 6720 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS32" H 3006 6720 50  0001 C CNN
+	1    3006 6720
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2708 6346 2706 6346
+Wire Wire Line
+	2542 6346 2542 6620
+Wire Wire Line
+	2542 6620 2706 6620
+Connection ~ 2706 6346
+Wire Wire Line
+	2706 6346 2542 6346
+Connection ~ 2706 6620
+Wire Wire Line
+	2706 6620 2709 6620
+Wire Wire Line
+	2540 6487 2283 6487
+Wire Wire Line
+	2705 6821 2374 6821
+Wire Wire Line
+	2707 6146 2706 6146
+Connection ~ 2706 6146
+Wire Wire Line
+	2706 6146 2315 6146
+Text Label 2138 6191 0    50   ~ 0
+~BHE
+Wire Wire Line
+	3303 6720 3306 6720
+Wire Wire Line
+	6658 2785 6658 6720
+Connection ~ 3306 6720
+Wire Wire Line
+	3306 6720 6658 6720
+Wire Wire Line
+	3306 6246 5892 6246
+Wire Wire Line
+	5892 6246 5892 3317
 $EndSCHEMATC
