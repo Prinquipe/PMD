@@ -1743,103 +1743,60 @@ M\~IO
 $Comp
 L afis-rescue:5OR-PMD-pmd-rescue U?
 U 1 1 5DE3AD6A
-P 1860 5302
-F 0 "U?" H 1835 5877 50  0000 C CNN
-F 1 "5OR" H 1835 5786 50  0000 C CNN
-F 2 "" H 1810 5352 50  0001 C CNN
-F 3 "" H 1810 5352 50  0001 C CNN
-	1    1860 5302
-	1    0    0    -1  
+P 1202 4688
+F 0 "U?" H 1177 5263 50  0000 C CNN
+F 1 "5OR" H 1177 5172 50  0000 C CNN
+F 2 "" H 1152 4738 50  0001 C CNN
+F 3 "" H 1152 4738 50  0001 C CNN
+	1    1202 4688
+	0    1    1    0   
 $EndComp
-Text Label 1442 4962 0    39   ~ 0
+Text Label 1542 4270 3    39   ~ 0
 A15
-Text Label 1431 5023 0    39   ~ 0
+Text Label 1481 4259 3    39   ~ 0
 A14
-Text Label 1430 5073 0    39   ~ 0
+Text Label 1431 4258 3    39   ~ 0
 A13
-Text Label 1433 5124 0    39   ~ 0
+Text Label 1380 4261 3    39   ~ 0
 A12
-Text Label 1438 5178 0    39   ~ 0
+Text Label 1326 4266 3    39   ~ 0
 A10
-Text Label 1421 5233 0    39   ~ 0
-A5
-Text Label 1436 4910 0    39   ~ 0
-A4
-Text Label 1392 5510 0    39   ~ 0
-A11
-Text Label 1470 5570 0    39   ~ 0
+Text Label 1271 4249 3    39   ~ 0
 A9
-Text Label 1473 5621 0    39   ~ 0
+Text Label 1594 4264 3    39   ~ 0
 A8
-Text Label 1479 5667 0    39   ~ 0
-A7
-Text Label 1479 5714 0    39   ~ 0
-A6
-$Comp
-L afis-rescue:6NOR-PMD-pmd-rescue U?
-U 1 1 5DF9DAE4
-P 1842 5957
-F 0 "U?" H 1842 6633 39  0000 C CNN
-F 1 "6NOR" H 1842 6558 39  0000 C CNN
-F 2 "" H 1842 5957 39  0001 C CNN
-F 3 "" H 1842 5957 39  0001 C CNN
-	1    1842 5957
-	1    0    0    -1  
-$EndComp
 $Comp
 L 74xx:74LS32 U?
 U 1 1 5E02C74C
-P 2680 5328
-F 0 "U?" H 2680 5653 50  0000 C CNN
-F 1 "74LS32" H 2680 5562 50  0000 C CNN
-F 2 "" H 2680 5328 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS32" H 2680 5328 50  0001 C CNN
-	1    2680 5328
-	1    0    0    -1  
+P 1176 5508
+F 0 "U?" H 1176 5833 50  0000 C CNN
+F 1 "74LS32" H 1176 5742 50  0000 C CNN
+F 2 "" H 1176 5508 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS32" H 1176 5508 50  0001 C CNN
+	1    1176 5508
+	0    1    1    0   
 $EndComp
 Wire Wire Line
-	2160 5052 2269 5052
+	1452 4988 1452 5097
 Wire Wire Line
-	2269 5052 2269 5228
+	1452 5097 1276 5097
 Wire Wire Line
-	2269 5228 2380 5228
-Connection ~ 2380 5228
+	1276 5097 1276 5208
+Connection ~ 1276 5208
 Wire Wire Line
-	2380 5228 2382 5228
+	1276 5208 1276 5210
 Wire Wire Line
-	2381 5428 2380 5428
+	1076 5209 1076 5208
 Wire Wire Line
-	2219 5428 2219 5632
+	1076 5047 872  5047
 Wire Wire Line
-	2219 5632 2166 5632
-Connection ~ 2380 5428
+	872  5047 872  4995
+Connection ~ 1076 5208
 Wire Wire Line
-	2380 5428 2219 5428
-Wire Wire Line
-	2980 5328 3046 5328
-Wire Wire Line
-	3046 5328 3046 5594
-Wire Wire Line
-	3046 5594 2751 5594
-Wire Wire Line
-	2751 5594 2751 7726
-Wire Wire Line
-	2751 7726 3044 7726
+	1076 5208 1076 5047
 Connection ~ 3044 7726
 Wire Wire Line
 	3044 7726 3047 7726
-Text GLabel 1363 5720 0    50   Input ~ 0
-"1"
-Wire Wire Line
-	1364 5720 1410 5720
-Wire Wire Line
-	1410 5720 1410 5732
-Wire Wire Line
-	1410 5732 1569 5732
-Wire Wire Line
-	1422 5731 1422 5782
-Wire Wire Line
-	1422 5782 1518 5782
 Wire Wire Line
 	10014 8061 10538 8061
 Wire Wire Line
@@ -1991,8 +1948,6 @@ Connection ~ 8706 11736
 Wire Wire Line
 	8706 11736 8710 11736
 Wire Wire Line
-	4142 7425 8478 7425
-Wire Wire Line
 	8478 7425 8478 12120
 Wire Wire Line
 	8478 12120 27428 12120
@@ -2056,4 +2011,150 @@ F 3 "~" H 31284 10010 50  0001 C CNN
 	1    31284 10010
 	1    0    0    -1  
 $EndComp
+$Comp
+L 74xx:74LS32 U?
+U 1 1 5C8F4EE7
+P 2044 4690
+F 0 "U?" H 2044 5015 50  0000 C CNN
+F 1 "74LS32" H 2044 4924 50  0000 C CNN
+F 2 "" H 2044 4690 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS32" H 2044 4690 50  0001 C CNN
+	1    2044 4690
+	0    1    1    0   
+$EndComp
+Text Label 1914 4282 3    39   ~ 0
+A11
+Text Label 2120 4304 3    39   ~ 0
+A5
+$Comp
+L 74xx:74LS32 U?
+U 1 1 5C942EF5
+P 1944 5290
+F 0 "U?" H 1944 5615 50  0000 C CNN
+F 1 "74LS32" H 1944 5524 50  0000 C CNN
+F 2 "" H 1944 5290 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS32" H 1944 5290 50  0001 C CNN
+	1    1944 5290
+	0    1    1    0   
+$EndComp
+Text Label 1825 4823 3    39   ~ 0
+A4
+$Comp
+L 74xx:74LS32 U?
+U 1 1 5C9B81C8
+P 1641 6417
+F 0 "U?" V 1595 6605 50  0000 L CNN
+F 1 "74LS32" V 1686 6605 50  0000 L CNN
+F 2 "" H 1641 6417 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS32" H 1641 6417 50  0001 C CNN
+	1    1641 6417
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1175 5808 1176 5808
+Wire Wire Line
+	1541 5808 1541 6117
+Connection ~ 1176 5808
+Wire Wire Line
+	1176 5808 1541 5808
+Wire Wire Line
+	1741 6118 1741 6117
+Wire Wire Line
+	1741 5815 1943 5815
+Wire Wire Line
+	1943 5815 1943 5590
+Connection ~ 1741 6117
+Wire Wire Line
+	1741 6117 1741 5815
+$Comp
+L 74xx:74LS32 U?
+U 1 1 5CE479B7
+P 872 4695
+F 0 "U?" V 826 4883 50  0000 L CNN
+F 1 "74LS32" V 917 4883 50  0000 L CNN
+F 2 "" H 872 4695 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS32" H 872 4695 50  0001 C CNN
+	1    872  4695
+	0    1    1    0   
+$EndComp
+Connection ~ 872  4995
+Wire Wire Line
+	872  4995 872  4994
+Text Label 798  3530 1    50   ~ 0
+A7
+Text Label 1131 3550 1    50   ~ 0
+A6
+$Comp
+L 74xx:74LS04 U?
+U 1 1 5CE96FE8
+P 754 3867
+F 0 "U?" V 708 4047 50  0000 L CNN
+F 1 "74LS04" V 799 4047 50  0000 L CNN
+F 2 "" H 754 3867 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS04" H 754 3867 50  0001 C CNN
+	1    754  3867
+	0    1    1    0   
+$EndComp
+$Comp
+L 74xx:74LS04 U?
+U 1 1 5CE97134
+P 1096 3873
+F 0 "U?" V 1050 4053 50  0000 L CNN
+F 1 "74LS04" V 1141 4053 50  0000 L CNN
+F 2 "" H 1096 3873 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS04" H 1096 3873 50  0001 C CNN
+	1    1096 3873
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	753  4164 753  4361
+Wire Wire Line
+	753  4361 772  4361
+Wire Wire Line
+	772  4361 772  4395
+Connection ~ 772  4395
+Wire Wire Line
+	772  4395 772  4397
+Wire Wire Line
+	1096 4171 1096 4173
+Wire Wire Line
+	1096 4333 972  4333
+Wire Wire Line
+	972  4333 972  4395
+Connection ~ 1096 4173
+Wire Wire Line
+	1096 4173 1096 4333
+Connection ~ 972  4395
+Wire Wire Line
+	972  4395 972  4396
+Wire Wire Line
+	1640 6714 1640 7726
+Wire Wire Line
+	1640 7726 3044 7726
+$Comp
+L 74xx:74LS04 U?
+U 1 1 5CF9A114
+P 6012 7576
+F 0 "U?" H 6012 7893 50  0000 C CNN
+F 1 "74LS04" H 6012 7802 50  0000 C CNN
+F 2 "" H 6012 7576 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS04" H 6012 7576 50  0001 C CNN
+	1    6012 7576
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4142 7427 5478 7427
+Wire Wire Line
+	5478 7427 5478 7580
+Wire Wire Line
+	5478 7580 5712 7580
+Wire Wire Line
+	6310 7576 6312 7576
+Wire Wire Line
+	6392 7576 6392 7424
+Wire Wire Line
+	6392 7424 8478 7424
+Connection ~ 6312 7576
+Wire Wire Line
+	6312 7576 6392 7576
 $EndSCHEMATC
