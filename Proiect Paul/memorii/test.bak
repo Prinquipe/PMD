@@ -96,86 +96,6 @@ Wire Wire Line
 Wire Wire Line
 	9041 3615 9037 3615
 Wire Wire Line
-	2730 2590 2588 2590
-Wire Wire Line
-	2733 2590 2730 2590
-Connection ~ 2730 2590
-Wire Wire Line
-	2730 2490 2586 2490
-Wire Wire Line
-	2733 2490 2730 2490
-Connection ~ 2730 2490
-Wire Wire Line
-	2730 3290 2586 3290
-Wire Wire Line
-	2733 3290 2730 3290
-Connection ~ 2730 3290
-Wire Wire Line
-	2730 2390 2586 2390
-Wire Wire Line
-	2733 2390 2730 2390
-Connection ~ 2730 2390
-Wire Wire Line
-	2730 3190 2588 3190
-Wire Wire Line
-	2733 3190 2730 3190
-Connection ~ 2730 3190
-Wire Wire Line
-	2730 2290 2586 2290
-Wire Wire Line
-	2733 2290 2730 2290
-Connection ~ 2730 2290
-Wire Wire Line
-	2730 3090 2588 3090
-Wire Wire Line
-	2733 3090 2730 3090
-Connection ~ 2730 3090
-Wire Wire Line
-	2730 2190 2586 2190
-Wire Wire Line
-	2733 2190 2730 2190
-Connection ~ 2730 2190
-Wire Wire Line
-	2730 2990 2587 2990
-Wire Wire Line
-	2733 2990 2730 2990
-Connection ~ 2730 2990
-Wire Wire Line
-	2730 2090 2587 2090
-Wire Wire Line
-	2733 2090 2730 2090
-Connection ~ 2730 2090
-Wire Wire Line
-	2730 2890 2586 2890
-Wire Wire Line
-	2733 2890 2730 2890
-Connection ~ 2730 2890
-Wire Wire Line
-	2730 1990 2586 1990
-Wire Wire Line
-	2733 1990 2730 1990
-Connection ~ 2730 1990
-Wire Wire Line
-	2730 2790 2588 2790
-Wire Wire Line
-	2733 2790 2730 2790
-Connection ~ 2730 2790
-Wire Wire Line
-	2730 1890 2586 1890
-Wire Wire Line
-	2733 1890 2730 1890
-Connection ~ 2730 1890
-Wire Wire Line
-	2730 2690 2586 2690
-Wire Wire Line
-	2733 2690 2730 2690
-Connection ~ 2730 2690
-Wire Wire Line
-	2730 1790 2588 1790
-Wire Wire Line
-	2733 1790 2730 1790
-Connection ~ 2730 1790
-Wire Wire Line
 	2730 3490 2734 3490
 $Comp
 L cbm-steve:27C1024 ERPOM1
@@ -813,14 +733,9 @@ Text Notes 4076 1389 3    39   ~ 0
 D15-D0
 Wire Wire Line
 	2196 5268 2199 5268
-Wire Wire Line
-	2649 3590 2730 3590
 Connection ~ 2199 5268
 Wire Wire Line
 	2199 5268 2514 5268
-Connection ~ 2730 3590
-Wire Wire Line
-	2730 3590 2734 3590
 Wire Wire Line
 	2199 5369 2649 5369
 Wire Wire Line
@@ -968,4 +883,92 @@ F 3 "" H 9982 1454 50  0001 C CNN
 	1    9982 1454
 	1    0    0    -1  
 $EndComp
+Text GLabel 773  3662 3    50   Input ~ 0
+"1"
+Wire Wire Line
+	2588 1790 2730 1790
+Wire Wire Line
+	2586 1990 2630 1990
+Wire Wire Line
+	2730 1990 2733 1990
+Wire Wire Line
+	2588 2590 2730 2590
+Wire Wire Line
+	2586 2490 2730 2490
+Wire Wire Line
+	2586 3290 2730 3290
+Wire Wire Line
+	2586 2390 2730 2390
+Wire Wire Line
+	2588 3190 2730 3190
+Wire Wire Line
+	2586 2290 2730 2290
+Wire Wire Line
+	2588 3090 2730 3090
+Wire Wire Line
+	2586 2190 2730 2190
+Wire Wire Line
+	2587 2990 2730 2990
+Wire Wire Line
+	2587 2090 2730 2090
+Wire Wire Line
+	2586 2890 2730 2890
+Wire Wire Line
+	2588 2790 2730 2790
+Wire Wire Line
+	2586 1890 2730 1890
+Wire Wire Line
+	2586 2690 2730 2690
+Wire Wire Line
+	2649 3590 2730 3590
+Connection ~ 2730 3590
+Wire Wire Line
+	2730 3590 2734 3590
+Connection ~ 2730 1790
+Wire Wire Line
+	2730 1790 2733 1790
+Connection ~ 2730 2690
+Wire Wire Line
+	2730 2690 2733 2690
+Connection ~ 2730 1890
+Wire Wire Line
+	2730 1890 2733 1890
+Connection ~ 2730 2790
+Wire Wire Line
+	2730 2790 2733 2790
+Connection ~ 2730 2890
+Wire Wire Line
+	2730 2890 2733 2890
+Connection ~ 2730 2090
+Wire Wire Line
+	2730 2090 2733 2090
+Connection ~ 2730 2990
+Wire Wire Line
+	2730 2990 2733 2990
+Connection ~ 2730 2190
+Wire Wire Line
+	2730 2190 2733 2190
+Connection ~ 2730 3090
+Wire Wire Line
+	2730 3090 2733 3090
+Connection ~ 2730 2290
+Wire Wire Line
+	2730 2290 2733 2290
+Connection ~ 2730 3190
+Wire Wire Line
+	2730 3190 2733 3190
+Connection ~ 2730 2390
+Wire Wire Line
+	2730 2390 2733 2390
+Connection ~ 2730 3290
+Wire Wire Line
+	2730 3290 2733 3290
+Connection ~ 2730 2490
+Wire Wire Line
+	2730 2490 2733 2490
+Connection ~ 2730 2590
+Wire Wire Line
+	2730 2590 2733 2590
+Text GLabel 2730 3690 3    50   Input ~ 0
+"1"
 $EndSCHEMATC

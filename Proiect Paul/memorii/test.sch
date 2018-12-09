@@ -26,7 +26,7 @@ F 3 "" H 1471 2664 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L PMD:62256 SRAM1
+L test-rescue:62256-PMD SRAM1
 U 1 1 5BF9B82B
 P 8991 4465
 F 0 "SRAM1" H 6891 4893 50  0000 C CNN
@@ -37,7 +37,7 @@ F 3 "" H 7041 4865 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L PMD:62256 SRAM2
+L test-rescue:62256-PMD SRAM2
 U 1 1 5BF9B884
 P 10543 4465
 F 0 "SRAM2" H 8443 4893 50  0000 C CNN
@@ -48,7 +48,7 @@ F 3 "" H 8593 4865 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L PMD:62256 SRAM3
+L test-rescue:62256-PMD SRAM3
 U 1 1 5BF9B92A
 P 12082 4454
 F 0 "SRAM3" H 9982 4882 50  0000 C CNN
@@ -161,7 +161,7 @@ Wire Wire Line
 Text Label 558  4023 0    59   ~ 12
 RD
 $Comp
-L PMD:74AC11138 Decodificator
+L test-rescue:74AC11138-PMD Decodificator
 U 1 1 5DE813C1
 P 1499 5718
 F 0 "Decodificator" H 1499 6914 59  0000 C CNN
@@ -515,7 +515,7 @@ Wire Wire Line
 	6025 3816 6028 3816
 Connection ~ 6028 3816
 $Comp
-L PMD:62256 SRAM0
+L test-rescue:62256-PMD SRAM0
 U 1 1 5BF9B730
 P 7528 4466
 F 0 "SRAM0" H 5428 4894 50  0000 C CNN

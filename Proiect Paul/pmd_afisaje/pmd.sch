@@ -2636,7 +2636,7 @@ Wire Wire Line
 Wire Wire Line
 	1280 10047 636  10047
 $Comp
-L PMD:5OR U?
+L pmd-rescue:5OR-PMD U?
 U 1 1 5DE3AD6A
 P 1476 5692
 F 0 "U?" H 1451 6267 50  0000 C CNN
@@ -2671,7 +2671,7 @@ A7
 Text Label 1095 6104 0    39   ~ 0
 A6
 $Comp
-L PMD:6NOR U?
+L pmd-rescue:6NOR-PMD U?
 U 1 1 5DF9DAE4
 P 1458 6347
 F 0 "U?" H 1458 7023 39  0000 C CNN
@@ -2736,7 +2736,7 @@ Wire Wire Line
 Wire Wire Line
 	1038 6172 1134 6172
 $Comp
-L PMD:5OR U?
+L pmd-rescue:5OR-PMD U?
 U 1 1 5E2378F2
 P 1692 13147
 F 0 "U?" H 1667 13722 50  0000 C CNN
@@ -2774,7 +2774,7 @@ $EndComp
 Text Label 1895 13131 0    50   ~ 0
 A6
 $Comp
-L PMD:6NOR U?
+L pmd-rescue:6NOR-PMD U?
 U 1 1 5E2D68E6
 P 2347 13919
 F 0 "U?" H 2347 14595 39  0000 C CNN

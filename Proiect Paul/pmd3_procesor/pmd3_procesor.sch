@@ -26,7 +26,7 @@ F 3 "http://www.cpu-galaxy.at/cpu/ram%20rom%20eprom/other_intel_chips/other_inte
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74xx:74LS373 U?
+L pmd3_procesor-rescue:74LS373-74xx U?
 U 1 1 5C245DB6
 P 16000 2500
 F 0 "U?" H 16000 3267 50  0000 C CNN
@@ -37,7 +37,7 @@ F 3 "http://www.ti.com/lit/gpn/sn74LS373" H 16000 2500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74xx:74LS373 U?
+L pmd3_procesor-rescue:74LS373-74xx U?
 U 1 1 5C245E28
 P 16050 5900
 F 0 "U?" H 16050 6667 50  0000 C CNN
@@ -48,7 +48,7 @@ F 3 "http://www.ti.com/lit/gpn/sn74LS373" H 16050 5900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74xx:74LS373 U?
+L pmd3_procesor-rescue:74LS373-74xx U?
 U 1 1 5C245E85
 P 16000 7550
 F 0 "U?" H 16000 8317 50  0000 C CNN
@@ -59,7 +59,7 @@ F 3 "http://www.ti.com/lit/gpn/sn74LS373" H 16000 7550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74xx:74LS245 U?
+L pmd3_procesor-rescue:74LS245-74xx U?
 U 1 1 5C245F0B
 P 16050 9700
 F 0 "U?" H 16050 10678 50  0000 C CNN
@@ -70,7 +70,7 @@ F 3 "http://www.ti.com/lit/gpn/sn74LS245" H 16050 9700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74xx:74LS245 U?
+L pmd3_procesor-rescue:74LS245-74xx U?
 U 1 1 5C245F86
 P 16050 11900
 F 0 "U?" H 16050 12878 50  0000 C CNN
@@ -280,7 +280,7 @@ CLK
 Text Label 6700 6450 0    50   ~ 0
 RST
 $Comp
-L MCU_Intel:8086_Max_Mode U?
+L pmd3_procesor-rescue:8086_Max_Mode-MCU_Intel U?
 U 1 1 5C1E9592
 P 7550 5200
 F 0 "U?" H 7550 7178 50  0000 C CNN
