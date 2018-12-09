@@ -1,7 +1,9 @@
 EESchema Schematic File Version 4
+LIBS:afis-cache
+LIBS:pmd-cache
 EELAYER 26 0
 EELAYER END
-$Descr A2 23386 16535
+$Descr A1 33110 23386
 encoding utf-8
 Sheet 1 1
 Title ""
@@ -14,1995 +16,2004 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Display_Character:KCSC02-105 U?
-U 1 1 5C0BE8A5
-P 3992 1749
-F 0 "U?" H 3992 2416 50  0000 C CNN
-F 1 "KCSC02-105" H 3992 2325 50  0000 C CNN
-F 2 "Display_7Segment:KCSC02-105" H 3992 1149 50  0001 C CNN
-F 3 "http://www.kingbright.com/attachments/file/psearch/000/00/00/KCSC02-105(Ver.9A).pdf" H 3492 2224 50  0001 L CNN
-	1    3992 1749
+L pmd-rescue:HD7731-Display_Character D?
+U 1 1 5C10F59D
+P 11384 6160
+F 0 "D?" H 10934 7777 50  0000 C CNN
+F 1 "HD7731" H 10934 7686 50  0000 C CNN
+F 2 "HD7731" H 10084 7910 50  0001 L CNN
+F 3 "http://usasyck.com/products/AD-121F2_cat_e.pdf" H 10934 6960 50  0001 C CNN
+	1    11384 6160
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74xx:74HCT574 U?
-U 1 1 5C0BE8AC
-P 3092 1949
-F 0 "U?" H 3092 2927 50  0000 C CNN
-F 1 "74HCT574" H 3092 2836 50  0000 C CNN
-F 2 "" H 3092 1949 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74HCT574" H 3092 1949 50  0001 C CNN
-	1    3092 1949
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3590 1449 3592 1449
-Wire Wire Line
-	3698 1449 3698 1448
-Connection ~ 3592 1449
-Wire Wire Line
-	3592 1449 3692 1449
-Connection ~ 3692 1449
-Wire Wire Line
-	3692 1449 3698 1449
-Wire Wire Line
-	3592 1549 3692 1549
-Connection ~ 3692 1549
-Wire Wire Line
-	3692 1549 3696 1549
-Wire Wire Line
-	3590 1649 3592 1649
-Wire Wire Line
-	3696 1649 3696 1648
-Connection ~ 3592 1649
-Wire Wire Line
-	3592 1649 3692 1649
-Connection ~ 3692 1649
-Wire Wire Line
-	3692 1649 3696 1649
-Wire Wire Line
-	3589 1749 3592 1749
-Wire Wire Line
-	3698 1749 3698 1748
-Connection ~ 3592 1749
-Wire Wire Line
-	3592 1749 3692 1749
-Connection ~ 3692 1749
-Wire Wire Line
-	3692 1749 3698 1749
-Wire Wire Line
-	3590 1849 3592 1849
-Connection ~ 3592 1849
-Wire Wire Line
-	3592 1849 3692 1849
-Connection ~ 3692 1849
-Wire Wire Line
-	3692 1849 3695 1849
-Wire Wire Line
-	3590 1949 3592 1949
-Connection ~ 3592 1949
-Wire Wire Line
-	3592 1949 3692 1949
-Connection ~ 3692 1949
-Wire Wire Line
-	3692 1949 3694 1949
-Wire Wire Line
-	3590 2049 3592 2049
-Wire Wire Line
-	3693 2049 3693 2050
-Connection ~ 3592 2049
-Wire Wire Line
-	3592 2049 3692 2049
-Connection ~ 3692 2049
-Wire Wire Line
-	3692 2049 3693 2049
-Wire Wire Line
-	3589 2149 3592 2149
-Wire Wire Line
-	3697 2149 3697 2148
-Connection ~ 3592 2149
-Wire Wire Line
-	3592 2149 3692 2149
-Connection ~ 3692 2149
-Wire Wire Line
-	3692 2149 3697 2149
-$Comp
-L Display_Character:KCSC02-105 U?
-U 1 1 5C0C2A8E
-P 6192 1749
-F 0 "U?" H 6192 2416 50  0000 C CNN
-F 1 "KCSC02-105" H 6192 2325 50  0000 C CNN
-F 2 "Display_7Segment:KCSC02-105" H 6192 1149 50  0001 C CNN
-F 3 "http://www.kingbright.com/attachments/file/psearch/000/00/00/KCSC02-105(Ver.9A).pdf" H 5692 2224 50  0001 L CNN
-	1    6192 1749
+L pmd-rescue:HD7731-Display_Character D?
+U 1 1 5C10F5A4
+P 13934 6160
+F 0 "D?" H 13484 7777 50  0000 C CNN
+F 1 "HD7731" H 13484 7686 50  0000 C CNN
+F 2 "HD7731" H 12634 7910 50  0001 L CNN
+F 3 "http://usasyck.com/products/AD-121F2_cat_e.pdf" H 13484 6960 50  0001 C CNN
+	1    13934 6160
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74xx:74HCT574 U?
-U 1 1 5C0C2A95
-P 5292 1949
-F 0 "U?" H 5292 2927 50  0000 C CNN
-F 1 "74HCT574" H 5292 2836 50  0000 C CNN
-F 2 "" H 5292 1949 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74HCT574" H 5292 1949 50  0001 C CNN
-	1    5292 1949
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5790 1449 5792 1449
-Wire Wire Line
-	5898 1449 5898 1448
-Connection ~ 5792 1449
-Wire Wire Line
-	5792 1449 5892 1449
-Connection ~ 5892 1449
-Wire Wire Line
-	5892 1449 5898 1449
-Wire Wire Line
-	5792 1549 5892 1549
-Connection ~ 5892 1549
-Wire Wire Line
-	5892 1549 5896 1549
-Wire Wire Line
-	5790 1649 5792 1649
-Wire Wire Line
-	5896 1649 5896 1648
-Connection ~ 5792 1649
-Wire Wire Line
-	5792 1649 5892 1649
-Connection ~ 5892 1649
-Wire Wire Line
-	5892 1649 5896 1649
-Wire Wire Line
-	5789 1749 5792 1749
-Wire Wire Line
-	5898 1749 5898 1748
-Connection ~ 5792 1749
-Wire Wire Line
-	5792 1749 5892 1749
-Connection ~ 5892 1749
-Wire Wire Line
-	5892 1749 5898 1749
-Wire Wire Line
-	5790 1849 5792 1849
-Connection ~ 5792 1849
-Wire Wire Line
-	5792 1849 5892 1849
-Connection ~ 5892 1849
-Wire Wire Line
-	5892 1849 5895 1849
-Wire Wire Line
-	5790 1949 5792 1949
-Connection ~ 5792 1949
-Wire Wire Line
-	5792 1949 5892 1949
-Connection ~ 5892 1949
-Wire Wire Line
-	5892 1949 5894 1949
-Wire Wire Line
-	5790 2049 5792 2049
-Wire Wire Line
-	5893 2049 5893 2050
-Connection ~ 5792 2049
-Wire Wire Line
-	5792 2049 5892 2049
-Connection ~ 5892 2049
-Wire Wire Line
-	5892 2049 5893 2049
-Wire Wire Line
-	5789 2149 5792 2149
-Wire Wire Line
-	5897 2149 5897 2148
-Connection ~ 5792 2149
-Wire Wire Line
-	5792 2149 5892 2149
-Connection ~ 5892 2149
-Wire Wire Line
-	5892 2149 5897 2149
-$Comp
-L Display_Character:KCSC02-105 U?
-U 1 1 5C0C3ADE
-P 8292 1749
-F 0 "U?" H 8292 2416 50  0000 C CNN
-F 1 "KCSC02-105" H 8292 2325 50  0000 C CNN
-F 2 "Display_7Segment:KCSC02-105" H 8292 1149 50  0001 C CNN
-F 3 "http://www.kingbright.com/attachments/file/psearch/000/00/00/KCSC02-105(Ver.9A).pdf" H 7792 2224 50  0001 L CNN
-	1    8292 1749
+L pmd-rescue:HD7731-Display_Character D?
+U 1 1 5C10F5AB
+P 16634 6160
+F 0 "D?" H 16184 7777 50  0000 C CNN
+F 1 "HD7731" H 16184 7686 50  0000 C CNN
+F 2 "HD7731" H 15334 7910 50  0001 L CNN
+F 3 "http://usasyck.com/products/AD-121F2_cat_e.pdf" H 16184 6960 50  0001 C CNN
+	1    16634 6160
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74xx:74HCT574 U?
-U 1 1 5C0C3AE5
-P 7392 1949
-F 0 "U?" H 7392 2927 50  0000 C CNN
-F 1 "74HCT574" H 7392 2836 50  0000 C CNN
-F 2 "" H 7392 1949 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74HCT574" H 7392 1949 50  0001 C CNN
-	1    7392 1949
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7890 1449 7892 1449
-Wire Wire Line
-	7998 1449 7998 1448
-Connection ~ 7892 1449
-Wire Wire Line
-	7892 1449 7992 1449
-Connection ~ 7992 1449
-Wire Wire Line
-	7992 1449 7998 1449
-Wire Wire Line
-	7892 1549 7992 1549
-Connection ~ 7992 1549
-Wire Wire Line
-	7992 1549 7996 1549
-Wire Wire Line
-	7890 1649 7892 1649
-Wire Wire Line
-	7996 1649 7996 1648
-Connection ~ 7892 1649
-Wire Wire Line
-	7892 1649 7992 1649
-Connection ~ 7992 1649
-Wire Wire Line
-	7992 1649 7996 1649
-Wire Wire Line
-	7889 1749 7892 1749
-Wire Wire Line
-	7998 1749 7998 1748
-Connection ~ 7892 1749
-Wire Wire Line
-	7892 1749 7992 1749
-Connection ~ 7992 1749
-Wire Wire Line
-	7992 1749 7998 1749
-Wire Wire Line
-	7890 1849 7892 1849
-Connection ~ 7892 1849
-Wire Wire Line
-	7892 1849 7992 1849
-Connection ~ 7992 1849
-Wire Wire Line
-	7992 1849 7995 1849
-Wire Wire Line
-	7890 1949 7892 1949
-Connection ~ 7892 1949
-Wire Wire Line
-	7892 1949 7992 1949
-Connection ~ 7992 1949
-Wire Wire Line
-	7992 1949 7994 1949
-Wire Wire Line
-	7890 2049 7892 2049
-Wire Wire Line
-	7993 2049 7993 2050
-Connection ~ 7892 2049
-Wire Wire Line
-	7892 2049 7992 2049
-Connection ~ 7992 2049
-Wire Wire Line
-	7992 2049 7993 2049
-Wire Wire Line
-	7889 2149 7892 2149
-Wire Wire Line
-	7997 2149 7997 2148
-Connection ~ 7892 2149
-Wire Wire Line
-	7892 2149 7992 2149
-Connection ~ 7992 2149
-Wire Wire Line
-	7992 2149 7997 2149
-$Comp
-L Display_Character:KCSC02-105 U?
-U 1 1 5C0C3B17
-P 10492 1749
-F 0 "U?" H 10492 2416 50  0000 C CNN
-F 1 "KCSC02-105" H 10492 2325 50  0000 C CNN
-F 2 "Display_7Segment:KCSC02-105" H 10492 1149 50  0001 C CNN
-F 3 "http://www.kingbright.com/attachments/file/psearch/000/00/00/KCSC02-105(Ver.9A).pdf" H 9992 2224 50  0001 L CNN
-	1    10492 1749
+L pmd-rescue:HD7731-Display_Character D?
+U 1 1 5C10F5B2
+P 19234 6160
+F 0 "D?" H 18784 7777 50  0000 C CNN
+F 1 "HD7731" H 18784 7686 50  0000 C CNN
+F 2 "HD7731" H 17934 7910 50  0001 L CNN
+F 3 "http://usasyck.com/products/AD-121F2_cat_e.pdf" H 18784 6960 50  0001 C CNN
+	1    19234 6160
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74xx:74HCT574 U?
-U 1 1 5C0C3B1E
-P 9592 1949
-F 0 "U?" H 9592 2927 50  0000 C CNN
-F 1 "74HCT574" H 9592 2836 50  0000 C CNN
-F 2 "" H 9592 1949 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74HCT574" H 9592 1949 50  0001 C CNN
-	1    9592 1949
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	10090 1449 10092 1449
-Wire Wire Line
-	10198 1449 10198 1448
-Connection ~ 10092 1449
-Wire Wire Line
-	10092 1449 10192 1449
-Connection ~ 10192 1449
-Wire Wire Line
-	10192 1449 10198 1449
-Wire Wire Line
-	10092 1549 10192 1549
-Connection ~ 10192 1549
-Wire Wire Line
-	10192 1549 10196 1549
-Wire Wire Line
-	10090 1649 10092 1649
-Wire Wire Line
-	10196 1649 10196 1648
-Connection ~ 10092 1649
-Wire Wire Line
-	10092 1649 10192 1649
-Connection ~ 10192 1649
-Wire Wire Line
-	10192 1649 10196 1649
-Wire Wire Line
-	10089 1749 10092 1749
-Wire Wire Line
-	10198 1749 10198 1748
-Connection ~ 10092 1749
-Wire Wire Line
-	10092 1749 10192 1749
-Connection ~ 10192 1749
-Wire Wire Line
-	10192 1749 10198 1749
-Wire Wire Line
-	10090 1849 10092 1849
-Connection ~ 10092 1849
-Wire Wire Line
-	10092 1849 10192 1849
-Connection ~ 10192 1849
-Wire Wire Line
-	10192 1849 10195 1849
-Wire Wire Line
-	10090 1949 10092 1949
-Connection ~ 10092 1949
-Wire Wire Line
-	10092 1949 10192 1949
-Connection ~ 10192 1949
-Wire Wire Line
-	10192 1949 10194 1949
-Wire Wire Line
-	10090 2049 10092 2049
-Wire Wire Line
-	10193 2049 10193 2050
-Connection ~ 10092 2049
-Wire Wire Line
-	10092 2049 10192 2049
-Connection ~ 10192 2049
-Wire Wire Line
-	10192 2049 10193 2049
-Wire Wire Line
-	10089 2149 10092 2149
-Wire Wire Line
-	10197 2149 10197 2148
-Connection ~ 10092 2149
-Wire Wire Line
-	10092 2149 10192 2149
-Connection ~ 10192 2149
-Wire Wire Line
-	10192 2149 10197 2149
-$Comp
-L Display_Character:KCSC02-105 U?
-U 1 1 5C0C7674
-P 12692 1749
-F 0 "U?" H 12692 2416 50  0000 C CNN
-F 1 "KCSC02-105" H 12692 2325 50  0000 C CNN
-F 2 "Display_7Segment:KCSC02-105" H 12692 1149 50  0001 C CNN
-F 3 "http://www.kingbright.com/attachments/file/psearch/000/00/00/KCSC02-105(Ver.9A).pdf" H 12192 2224 50  0001 L CNN
-	1    12692 1749
+L pmd-rescue:HD7731-Display_Character D?
+U 1 1 5C10F5B9
+P 21684 6160
+F 0 "D?" H 21234 7777 50  0000 C CNN
+F 1 "HD7731" H 21234 7686 50  0000 C CNN
+F 2 "HD7731" H 20384 7910 50  0001 L CNN
+F 3 "http://usasyck.com/products/AD-121F2_cat_e.pdf" H 21234 6960 50  0001 C CNN
+	1    21684 6160
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74xx:74HCT574 U?
-U 1 1 5C0C767B
-P 11792 1949
-F 0 "U?" H 11792 2927 50  0000 C CNN
-F 1 "74HCT574" H 11792 2836 50  0000 C CNN
-F 2 "" H 11792 1949 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74HCT574" H 11792 1949 50  0001 C CNN
-	1    11792 1949
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	12290 1449 12292 1449
-Wire Wire Line
-	12398 1449 12398 1448
-Connection ~ 12292 1449
-Wire Wire Line
-	12292 1449 12392 1449
-Connection ~ 12392 1449
-Wire Wire Line
-	12392 1449 12398 1449
-Wire Wire Line
-	12292 1549 12392 1549
-Connection ~ 12392 1549
-Wire Wire Line
-	12392 1549 12396 1549
-Wire Wire Line
-	12290 1649 12292 1649
-Wire Wire Line
-	12396 1649 12396 1648
-Connection ~ 12292 1649
-Wire Wire Line
-	12292 1649 12392 1649
-Connection ~ 12392 1649
-Wire Wire Line
-	12392 1649 12396 1649
-Wire Wire Line
-	12289 1749 12292 1749
-Wire Wire Line
-	12398 1749 12398 1748
-Connection ~ 12292 1749
-Wire Wire Line
-	12292 1749 12392 1749
-Connection ~ 12392 1749
-Wire Wire Line
-	12392 1749 12398 1749
-Wire Wire Line
-	12290 1849 12292 1849
-Connection ~ 12292 1849
-Wire Wire Line
-	12292 1849 12392 1849
-Connection ~ 12392 1849
-Wire Wire Line
-	12392 1849 12395 1849
-Wire Wire Line
-	12290 1949 12292 1949
-Connection ~ 12292 1949
-Wire Wire Line
-	12292 1949 12392 1949
-Connection ~ 12392 1949
-Wire Wire Line
-	12392 1949 12394 1949
-Wire Wire Line
-	12290 2049 12292 2049
-Wire Wire Line
-	12393 2049 12393 2050
-Connection ~ 12292 2049
-Wire Wire Line
-	12292 2049 12392 2049
-Connection ~ 12392 2049
-Wire Wire Line
-	12392 2049 12393 2049
-Wire Wire Line
-	12289 2149 12292 2149
-Wire Wire Line
-	12397 2149 12397 2148
-Connection ~ 12292 2149
-Wire Wire Line
-	12292 2149 12392 2149
-Connection ~ 12392 2149
-Wire Wire Line
-	12392 2149 12397 2149
-$Comp
-L Display_Character:KCSC02-105 U?
-U 1 1 5C0C76AD
-P 14892 1749
-F 0 "U?" H 14892 2416 50  0000 C CNN
-F 1 "KCSC02-105" H 14892 2325 50  0000 C CNN
-F 2 "Display_7Segment:KCSC02-105" H 14892 1149 50  0001 C CNN
-F 3 "http://www.kingbright.com/attachments/file/psearch/000/00/00/KCSC02-105(Ver.9A).pdf" H 14392 2224 50  0001 L CNN
-	1    14892 1749
+L pmd-rescue:HD7731-Display_Character D?
+U 1 1 5C10F5C0
+P 24034 6160
+F 0 "D?" H 23584 7777 50  0000 C CNN
+F 1 "HD7731" H 23584 7686 50  0000 C CNN
+F 2 "HD7731" H 22734 7910 50  0001 L CNN
+F 3 "http://usasyck.com/products/AD-121F2_cat_e.pdf" H 23584 6960 50  0001 C CNN
+	1    24034 6160
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74xx:74HCT574 U?
-U 1 1 5C0C76B4
-P 13992 1949
-F 0 "U?" H 13992 2927 50  0000 C CNN
-F 1 "74HCT574" H 13992 2836 50  0000 C CNN
-F 2 "" H 13992 1949 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74HCT574" H 13992 1949 50  0001 C CNN
-	1    13992 1949
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	14490 1449 14492 1449
-Wire Wire Line
-	14598 1449 14598 1448
-Connection ~ 14492 1449
-Wire Wire Line
-	14492 1449 14592 1449
-Connection ~ 14592 1449
-Wire Wire Line
-	14592 1449 14598 1449
-Wire Wire Line
-	14492 1549 14592 1549
-Connection ~ 14592 1549
-Wire Wire Line
-	14592 1549 14596 1549
-Wire Wire Line
-	14490 1649 14492 1649
-Wire Wire Line
-	14596 1649 14596 1648
-Connection ~ 14492 1649
-Wire Wire Line
-	14492 1649 14592 1649
-Connection ~ 14592 1649
-Wire Wire Line
-	14592 1649 14596 1649
-Wire Wire Line
-	14489 1749 14492 1749
-Wire Wire Line
-	14598 1749 14598 1748
-Connection ~ 14492 1749
-Wire Wire Line
-	14492 1749 14592 1749
-Connection ~ 14592 1749
-Wire Wire Line
-	14592 1749 14598 1749
-Wire Wire Line
-	14490 1849 14492 1849
-Connection ~ 14492 1849
-Wire Wire Line
-	14492 1849 14592 1849
-Connection ~ 14592 1849
-Wire Wire Line
-	14592 1849 14595 1849
-Wire Wire Line
-	14490 1949 14492 1949
-Connection ~ 14492 1949
-Wire Wire Line
-	14492 1949 14592 1949
-Connection ~ 14592 1949
-Wire Wire Line
-	14592 1949 14594 1949
-Wire Wire Line
-	14490 2049 14492 2049
-Wire Wire Line
-	14593 2049 14593 2050
-Connection ~ 14492 2049
-Wire Wire Line
-	14492 2049 14592 2049
-Connection ~ 14592 2049
-Wire Wire Line
-	14592 2049 14593 2049
-Wire Wire Line
-	14489 2149 14492 2149
-Wire Wire Line
-	14597 2149 14597 2148
-Connection ~ 14492 2149
-Wire Wire Line
-	14492 2149 14592 2149
-Connection ~ 14592 2149
-Wire Wire Line
-	14592 2149 14597 2149
-$Comp
-L Display_Character:KCSC02-105 U?
-U 1 1 5C0C76E6
-P 16992 1749
-F 0 "U?" H 16992 2416 50  0000 C CNN
-F 1 "KCSC02-105" H 16992 2325 50  0000 C CNN
-F 2 "Display_7Segment:KCSC02-105" H 16992 1149 50  0001 C CNN
-F 3 "http://www.kingbright.com/attachments/file/psearch/000/00/00/KCSC02-105(Ver.9A).pdf" H 16492 2224 50  0001 L CNN
-	1    16992 1749
+L pmd-rescue:HD7731-Display_Character D?
+U 1 1 5C10F5C7
+P 26334 6160
+F 0 "D?" H 25884 7777 50  0000 C CNN
+F 1 "HD7731" H 25884 7686 50  0000 C CNN
+F 2 "HD7731" H 25034 7910 50  0001 L CNN
+F 3 "http://usasyck.com/products/AD-121F2_cat_e.pdf" H 25884 6960 50  0001 C CNN
+	1    26334 6160
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74xx:74HCT574 U?
-U 1 1 5C0C76ED
-P 16092 1949
-F 0 "U?" H 16092 2927 50  0000 C CNN
-F 1 "74HCT574" H 16092 2836 50  0000 C CNN
-F 2 "" H 16092 1949 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74HCT574" H 16092 1949 50  0001 C CNN
-	1    16092 1949
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	16590 1449 16592 1449
-Wire Wire Line
-	16698 1449 16698 1448
-Connection ~ 16592 1449
-Wire Wire Line
-	16592 1449 16692 1449
-Connection ~ 16692 1449
-Wire Wire Line
-	16692 1449 16698 1449
-Wire Wire Line
-	16592 1549 16692 1549
-Connection ~ 16692 1549
-Wire Wire Line
-	16692 1549 16696 1549
-Wire Wire Line
-	16590 1649 16592 1649
-Wire Wire Line
-	16696 1649 16696 1648
-Connection ~ 16592 1649
-Wire Wire Line
-	16592 1649 16692 1649
-Connection ~ 16692 1649
-Wire Wire Line
-	16692 1649 16696 1649
-Wire Wire Line
-	16589 1749 16592 1749
-Wire Wire Line
-	16698 1749 16698 1748
-Connection ~ 16592 1749
-Wire Wire Line
-	16592 1749 16692 1749
-Connection ~ 16692 1749
-Wire Wire Line
-	16692 1749 16698 1749
-Wire Wire Line
-	16590 1849 16592 1849
-Connection ~ 16592 1849
-Wire Wire Line
-	16592 1849 16692 1849
-Connection ~ 16692 1849
-Wire Wire Line
-	16692 1849 16695 1849
-Wire Wire Line
-	16590 1949 16592 1949
-Connection ~ 16592 1949
-Wire Wire Line
-	16592 1949 16692 1949
-Connection ~ 16692 1949
-Wire Wire Line
-	16692 1949 16694 1949
-Wire Wire Line
-	16590 2049 16592 2049
-Wire Wire Line
-	16693 2049 16693 2050
-Connection ~ 16592 2049
-Wire Wire Line
-	16592 2049 16692 2049
-Connection ~ 16692 2049
-Wire Wire Line
-	16692 2049 16693 2049
-Wire Wire Line
-	16589 2149 16592 2149
-Wire Wire Line
-	16697 2149 16697 2148
-Connection ~ 16592 2149
-Wire Wire Line
-	16592 2149 16692 2149
-Connection ~ 16692 2149
-Wire Wire Line
-	16692 2149 16697 2149
-$Comp
-L Display_Character:KCSC02-105 U?
-U 1 1 5C0C771F
-P 19192 1749
-F 0 "U?" H 19192 2416 50  0000 C CNN
-F 1 "KCSC02-105" H 19192 2325 50  0000 C CNN
-F 2 "Display_7Segment:KCSC02-105" H 19192 1149 50  0001 C CNN
-F 3 "http://www.kingbright.com/attachments/file/psearch/000/00/00/KCSC02-105(Ver.9A).pdf" H 18692 2224 50  0001 L CNN
-	1    19192 1749
+L pmd-rescue:HD7731-Display_Character D?
+U 1 1 5C10F5CE
+P 28784 6160
+F 0 "D?" H 28334 7777 50  0000 C CNN
+F 1 "HD7731" H 28334 7686 50  0000 C CNN
+F 2 "HD7731" H 27484 7910 50  0001 L CNN
+F 3 "http://usasyck.com/products/AD-121F2_cat_e.pdf" H 28334 6960 50  0001 C CNN
+	1    28784 6160
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74xx:74HCT574 U?
-U 1 1 5C0C7726
-P 18292 1949
-F 0 "U?" H 18292 2927 50  0000 C CNN
-F 1 "74HCT574" H 18292 2836 50  0000 C CNN
-F 2 "" H 18292 1949 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74HCT574" H 18292 1949 50  0001 C CNN
-	1    18292 1949
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	18790 1449 18792 1449
-Wire Wire Line
-	18898 1449 18898 1448
-Connection ~ 18792 1449
-Wire Wire Line
-	18792 1449 18892 1449
-Connection ~ 18892 1449
-Wire Wire Line
-	18892 1449 18898 1449
-Wire Wire Line
-	18792 1549 18892 1549
-Connection ~ 18892 1549
-Wire Wire Line
-	18892 1549 18896 1549
-Wire Wire Line
-	18790 1649 18792 1649
-Wire Wire Line
-	18896 1649 18896 1648
-Connection ~ 18792 1649
-Wire Wire Line
-	18792 1649 18892 1649
-Connection ~ 18892 1649
-Wire Wire Line
-	18892 1649 18896 1649
-Wire Wire Line
-	18789 1749 18792 1749
-Wire Wire Line
-	18898 1749 18898 1748
-Connection ~ 18792 1749
-Wire Wire Line
-	18792 1749 18892 1749
-Connection ~ 18892 1749
-Wire Wire Line
-	18892 1749 18898 1749
-Wire Wire Line
-	18790 1849 18792 1849
-Connection ~ 18792 1849
-Wire Wire Line
-	18792 1849 18892 1849
-Connection ~ 18892 1849
-Wire Wire Line
-	18892 1849 18895 1849
-Wire Wire Line
-	18790 1949 18792 1949
-Connection ~ 18792 1949
-Wire Wire Line
-	18792 1949 18892 1949
-Connection ~ 18892 1949
-Wire Wire Line
-	18892 1949 18894 1949
-Wire Wire Line
-	18790 2049 18792 2049
-Wire Wire Line
-	18893 2049 18893 2050
-Connection ~ 18792 2049
-Wire Wire Line
-	18792 2049 18892 2049
-Connection ~ 18892 2049
-Wire Wire Line
-	18892 2049 18893 2049
-Wire Wire Line
-	18789 2149 18792 2149
-Wire Wire Line
-	18897 2149 18897 2148
-Connection ~ 18792 2149
-Wire Wire Line
-	18792 2149 18892 2149
-Connection ~ 18892 2149
-Wire Wire Line
-	18892 2149 18897 2149
-$Comp
-L power:GND #PWR?
-U 1 1 5C0D51D4
-P 2591 2449
-F 0 "#PWR?" H 2591 2199 50  0001 C CNN
-F 1 "GND" H 2596 2276 50  0000 C CNN
-F 2 "" H 2591 2449 50  0001 C CNN
-F 3 "" H 2591 2449 50  0001 C CNN
-	1    2591 2449
+L pmd-rescue:74LS373-74xx U?
+U 1 1 5C10F5DC
+P 13584 7460
+F 0 "U?" H 13584 8227 50  0000 C CNN
+F 1 "74LS373" H 13584 8136 50  0000 C CNN
+F 2 "" H 13584 7460 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS373" H 13584 7460 50  0001 C CNN
+	1    13584 7460
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
-U 1 1 5C0D5626
-P 4791 2449
-F 0 "#PWR?" H 4791 2199 50  0001 C CNN
-F 1 "GND" H 4796 2276 50  0000 C CNN
-F 2 "" H 4791 2449 50  0001 C CNN
-F 3 "" H 4791 2449 50  0001 C CNN
-	1    4791 2449
+L pmd-rescue:74LS373-74xx U?
+U 1 1 5C10F5E3
+P 16434 7460
+F 0 "U?" H 16434 8227 50  0000 C CNN
+F 1 "74LS373" H 16434 8136 50  0000 C CNN
+F 2 "" H 16434 7460 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS373" H 16434 7460 50  0001 C CNN
+	1    16434 7460
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
-U 1 1 5C0D5F67
-P 6030 2735
-F 0 "#PWR?" H 6030 2485 50  0001 C CNN
-F 1 "GND" H 6035 2562 50  0000 C CNN
-F 2 "" H 6030 2735 50  0001 C CNN
-F 3 "" H 6030 2735 50  0001 C CNN
-	1    6030 2735
+L pmd-rescue:74LS373-74xx U?
+U 1 1 5C10F5EA
+P 18984 7510
+F 0 "U?" H 18984 8277 50  0000 C CNN
+F 1 "74LS373" H 18984 8186 50  0000 C CNN
+F 2 "" H 18984 7510 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS373" H 18984 7510 50  0001 C CNN
+	1    18984 7510
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
-U 1 1 5C0D625E
-P 6892 2449
-F 0 "#PWR?" H 6892 2199 50  0001 C CNN
-F 1 "GND" H 6897 2276 50  0000 C CNN
-F 2 "" H 6892 2449 50  0001 C CNN
-F 3 "" H 6892 2449 50  0001 C CNN
-	1    6892 2449
+L pmd-rescue:74LS373-74xx U?
+U 1 1 5C10F5F1
+P 21434 7610
+F 0 "U?" H 21434 8377 50  0000 C CNN
+F 1 "74LS373" H 21434 8286 50  0000 C CNN
+F 2 "" H 21434 7610 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS373" H 21434 7610 50  0001 C CNN
+	1    21434 7610
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
-U 1 1 5C0E3CE4
-P 9092 2449
-F 0 "#PWR?" H 9092 2199 50  0001 C CNN
-F 1 "GND" H 9097 2276 50  0000 C CNN
-F 2 "" H 9092 2449 50  0001 C CNN
-F 3 "" H 9092 2449 50  0001 C CNN
-	1    9092 2449
+L pmd-rescue:74LS373-74xx U?
+U 1 1 5C10F5F8
+P 23634 7610
+F 0 "U?" H 23634 8377 50  0000 C CNN
+F 1 "74LS373" H 23634 8286 50  0000 C CNN
+F 2 "" H 23634 7610 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS373" H 23634 7610 50  0001 C CNN
+	1    23634 7610
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
-U 1 1 5C0F16DA
-P 11292 2449
-F 0 "#PWR?" H 11292 2199 50  0001 C CNN
-F 1 "GND" H 11297 2276 50  0000 C CNN
-F 2 "" H 11292 2449 50  0001 C CNN
-F 3 "" H 11292 2449 50  0001 C CNN
-	1    11292 2449
+L pmd-rescue:74LS373-74xx U?
+U 1 1 5C10F5FF
+P 26184 7660
+F 0 "U?" H 26184 8427 50  0000 C CNN
+F 1 "74LS373" H 26184 8336 50  0000 C CNN
+F 2 "" H 26184 7660 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS373" H 26184 7660 50  0001 C CNN
+	1    26184 7660
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
-U 1 1 5C0FEF20
-P 13492 2449
-F 0 "#PWR?" H 13492 2199 50  0001 C CNN
-F 1 "GND" H 13497 2276 50  0000 C CNN
-F 2 "" H 13492 2449 50  0001 C CNN
-F 3 "" H 13492 2449 50  0001 C CNN
-	1    13492 2449
+L pmd-rescue:74LS373-74xx U?
+U 1 1 5C10F606
+P 28384 7660
+F 0 "U?" H 28384 8427 50  0000 C CNN
+F 1 "74LS373" H 28384 8336 50  0000 C CNN
+F 2 "" H 28384 7660 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS373" H 28384 7660 50  0001 C CNN
+	1    28384 7660
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
-U 1 1 5C10CAA2
-P 15592 2449
-F 0 "#PWR?" H 15592 2199 50  0001 C CNN
-F 1 "GND" H 15597 2276 50  0000 C CNN
-F 2 "" H 15592 2449 50  0001 C CNN
-F 3 "" H 15592 2449 50  0001 C CNN
-	1    15592 2449
+L Device:R_Small Rez_8x?
+U 1 1 5C10F60D
+P 11984 6310
+F 0 "Rez_8x?" H 12043 6356 50  0000 L CNN
+F 1 "R_Small" H 12043 6265 50  0000 L CNN
+F 2 "" H 11984 6310 50  0001 C CNN
+F 3 "~" H 11984 6310 50  0001 C CNN
+	1    11984 6310
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
-U 1 1 5C11A678
-P 17792 2449
-F 0 "#PWR?" H 17792 2199 50  0001 C CNN
-F 1 "GND" H 17797 2276 50  0000 C CNN
-F 2 "" H 17792 2449 50  0001 C CNN
-F 3 "" H 17792 2449 50  0001 C CNN
-	1    17792 2449
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	19492 2150 19492 2149
-Connection ~ 19492 2049
-Wire Wire Line
-	19492 2049 19492 1151
-Connection ~ 19492 2149
-Wire Wire Line
-	19492 2149 19492 2049
-Wire Wire Line
-	17291 2150 17291 1151
-Wire Wire Line
-	17291 1151 17289 1151
-Wire Wire Line
-	15192 2148 15192 2049
-Wire Wire Line
-	15192 1149 15194 1149
-Wire Wire Line
-	15194 1149 15194 1150
-Connection ~ 15192 2049
-Wire Wire Line
-	15192 2049 15192 1149
-Connection ~ 15194 1150
-Wire Wire Line
-	15194 1150 20381 1150
-Wire Wire Line
-	12990 2150 12990 1152
-Wire Wire Line
-	10790 2150 10790 1150
-Wire Wire Line
-	3091 1150 10790 1150
-Connection ~ 10790 1150
-Wire Wire Line
-	10790 1150 15194 1150
-Wire Wire Line
-	8592 2149 8592 2049
-Connection ~ 8592 2049
-Wire Wire Line
-	8592 2049 8592 1151
-Wire Wire Line
-	6492 2150 6492 2149
-Wire Wire Line
-	6492 1152 6493 1152
-Connection ~ 6492 2049
-Wire Wire Line
-	6492 2049 6492 1152
-Connection ~ 6492 2149
-Wire Wire Line
-	6492 2149 6492 2049
-Wire Wire Line
-	4292 2149 4292 2049
-Connection ~ 4292 2049
-Wire Wire Line
-	4292 2049 4292 1152
-$Comp
-L 74xx:74HCT574 U?
-U 1 1 5C1BC037
-P 18224 4400
-F 0 "U?" H 18224 5378 50  0000 C CNN
-F 1 "74HCT574" H 18224 5287 50  0000 C CNN
-F 2 "" H 18224 4400 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74HCT574" H 18224 4400 50  0001 C CNN
-	1    18224 4400
+L Device:R_Small Rez_8x?
+U 1 1 5C10F614
+P 14534 6310
+F 0 "Rez_8x?" H 14593 6356 50  0000 L CNN
+F 1 "R_Small" H 14593 6265 50  0000 L CNN
+F 2 "" H 14534 6310 50  0001 C CNN
+F 3 "~" H 14534 6310 50  0001 C CNN
+	1    14534 6310
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74xx:74HCT574 U?
-U 1 1 5C1BC408
-P 18225 6376
-F 0 "U?" H 18225 7354 50  0000 C CNN
-F 1 "74HCT574" H 18225 7263 50  0000 C CNN
-F 2 "" H 18225 6376 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74HCT574" H 18225 6376 50  0001 C CNN
-	1    18225 6376
+L Device:R_Small Rez_8x?
+U 1 1 5C10F61B
+P 17234 6310
+F 0 "Rez_8x?" H 17293 6356 50  0000 L CNN
+F 1 "R_Small" H 17293 6265 50  0000 L CNN
+F 2 "" H 17234 6310 50  0001 C CNN
+F 3 "~" H 17234 6310 50  0001 C CNN
+	1    17234 6310
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
-U 1 1 5C1CC701
-P 18224 5200
-F 0 "#PWR?" H 18224 4950 50  0001 C CNN
-F 1 "GND" H 18229 5027 50  0000 C CNN
-F 2 "" H 18224 5200 50  0001 C CNN
-F 3 "" H 18224 5200 50  0001 C CNN
-	1    18224 5200
+L Device:R_Small Rez_8x?
+U 1 1 5C10F622
+P 19834 6310
+F 0 "Rez_8x?" H 19893 6356 50  0000 L CNN
+F 1 "R_Small" H 19893 6265 50  0000 L CNN
+F 2 "" H 19834 6310 50  0001 C CNN
+F 3 "~" H 19834 6310 50  0001 C CNN
+	1    19834 6310
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
-U 1 1 5C1EBB87
-P 18225 7176
-F 0 "#PWR?" H 18225 6926 50  0001 C CNN
-F 1 "GND" H 18230 7003 50  0000 C CNN
-F 2 "" H 18225 7176 50  0001 C CNN
-F 3 "" H 18225 7176 50  0001 C CNN
-	1    18225 7176
+L Device:R_Small Rez_8x?
+U 1 1 5C10F629
+P 22284 6310
+F 0 "Rez_8x?" H 22343 6356 50  0000 L CNN
+F 1 "R_Small" H 22343 6265 50  0000 L CNN
+F 2 "" H 22284 6310 50  0001 C CNN
+F 3 "~" H 22284 6310 50  0001 C CNN
+	1    22284 6310
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
-U 1 1 5C1FB9B4
-P 18292 2749
-F 0 "#PWR?" H 18292 2499 50  0001 C CNN
-F 1 "GND" H 18297 2576 50  0000 C CNN
-F 2 "" H 18292 2749 50  0001 C CNN
-F 3 "" H 18292 2749 50  0001 C CNN
-	1    18292 2749
+L Device:R_Small Rez_8x?
+U 1 1 5C10F630
+P 24634 6310
+F 0 "Rez_8x?" H 24693 6356 50  0000 L CNN
+F 1 "R_Small" H 24693 6265 50  0000 L CNN
+F 2 "" H 24634 6310 50  0001 C CNN
+F 3 "~" H 24634 6310 50  0001 C CNN
+	1    24634 6310
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
-U 1 1 5C20B397
-P 16092 2749
-F 0 "#PWR?" H 16092 2499 50  0001 C CNN
-F 1 "GND" H 16097 2576 50  0000 C CNN
-F 2 "" H 16092 2749 50  0001 C CNN
-F 3 "" H 16092 2749 50  0001 C CNN
-	1    16092 2749
+L Device:R_Small Rez_8x?
+U 1 1 5C10F637
+P 26934 6310
+F 0 "Rez_8x?" H 26993 6356 50  0000 L CNN
+F 1 "R_Small" H 26993 6265 50  0000 L CNN
+F 2 "" H 26934 6310 50  0001 C CNN
+F 3 "~" H 26934 6310 50  0001 C CNN
+	1    26934 6310
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
-U 1 1 5C21AD0E
-P 13992 2749
-F 0 "#PWR?" H 13992 2499 50  0001 C CNN
-F 1 "GND" H 13997 2576 50  0000 C CNN
-F 2 "" H 13992 2749 50  0001 C CNN
-F 3 "" H 13992 2749 50  0001 C CNN
-	1    13992 2749
+L Device:R_Small Rez_8x?
+U 1 1 5C10F63E
+P 29384 6260
+F 0 "Rez_8x?" H 29443 6306 50  0000 L CNN
+F 1 "R_Small" H 29443 6215 50  0000 L CNN
+F 2 "" H 29384 6260 50  0001 C CNN
+F 3 "~" H 29384 6260 50  0001 C CNN
+	1    29384 6260
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11984 4810 11984 4910
+Connection ~ 11984 4910
+Wire Wire Line
+	11984 4910 11984 5010
+Connection ~ 11984 5010
+Wire Wire Line
+	11984 5010 11984 5110
+Connection ~ 11984 5110
+Wire Wire Line
+	11984 5110 11984 5210
+Connection ~ 11984 5210
+Wire Wire Line
+	11984 5210 11984 5310
+Connection ~ 11984 5310
+Wire Wire Line
+	11984 5310 11984 5410
+Connection ~ 11984 5410
+Wire Wire Line
+	11984 5410 11984 6210
+Wire Wire Line
+	11984 6410 11984 7060
+Wire Wire Line
+	11984 7060 11534 7060
+Wire Wire Line
+	14534 4810 14534 4910
+Connection ~ 14534 4910
+Wire Wire Line
+	14534 4910 14534 5010
+Connection ~ 14534 5010
+Wire Wire Line
+	14534 5010 14534 5110
+Connection ~ 14534 5110
+Wire Wire Line
+	14534 5110 14534 5210
+Connection ~ 14534 5210
+Wire Wire Line
+	14534 5210 14534 5310
+Connection ~ 14534 5310
+Wire Wire Line
+	14534 5310 14534 5410
+Connection ~ 14534 5410
+Wire Wire Line
+	14534 5410 14534 6210
+Wire Wire Line
+	14534 6410 14534 6960
+Wire Wire Line
+	14534 6960 14084 6960
+Wire Wire Line
+	14084 6960 14084 7060
+Connection ~ 14084 6960
+Connection ~ 14084 7060
+Wire Wire Line
+	14084 7060 14084 7160
+Connection ~ 14084 7160
+Wire Wire Line
+	14084 7160 14084 7260
+Connection ~ 14084 7260
+Wire Wire Line
+	14084 7260 14084 7360
+Connection ~ 14084 7360
+Wire Wire Line
+	14084 7360 14084 7460
+Connection ~ 14084 7460
+Wire Wire Line
+	14084 7460 14084 7560
+Connection ~ 14084 7560
+Wire Wire Line
+	14084 7560 14084 7660
+Wire Wire Line
+	17234 4810 17234 4910
+Connection ~ 17234 4910
+Wire Wire Line
+	17234 4910 17234 5010
+Connection ~ 17234 5010
+Wire Wire Line
+	17234 5010 17234 5110
+Connection ~ 17234 5110
+Wire Wire Line
+	17234 5110 17234 5210
+Connection ~ 17234 5210
+Wire Wire Line
+	17234 5210 17234 5310
+Connection ~ 17234 5310
+Wire Wire Line
+	17234 5310 17234 5410
+Connection ~ 17234 5410
+Wire Wire Line
+	17234 5410 17234 6210
+Wire Wire Line
+	17234 6410 17234 6960
+Wire Wire Line
+	17234 6960 16934 6960
+Wire Wire Line
+	16934 6960 16934 7060
+Connection ~ 16934 6960
+Connection ~ 16934 7060
+Wire Wire Line
+	16934 7060 16934 7160
+Connection ~ 16934 7160
+Wire Wire Line
+	16934 7160 16934 7260
+Connection ~ 16934 7260
+Wire Wire Line
+	16934 7260 16934 7360
+Connection ~ 16934 7360
+Wire Wire Line
+	16934 7360 16934 7460
+Connection ~ 16934 7460
+Wire Wire Line
+	16934 7460 16934 7560
+Connection ~ 16934 7560
+Wire Wire Line
+	16934 7560 16934 7660
+Wire Wire Line
+	19834 4810 19834 4910
+Connection ~ 19834 4910
+Wire Wire Line
+	19834 4910 19834 5010
+Connection ~ 19834 5010
+Wire Wire Line
+	19834 5010 19834 5110
+Connection ~ 19834 5110
+Wire Wire Line
+	19834 5110 19834 5210
+Connection ~ 19834 5210
+Wire Wire Line
+	19834 5210 19834 5310
+Connection ~ 19834 5310
+Wire Wire Line
+	19834 5310 19834 5410
+Connection ~ 19834 5410
+Wire Wire Line
+	19834 5410 19834 6210
+Wire Wire Line
+	19834 6410 19834 7010
+Wire Wire Line
+	19834 7010 19484 7010
+Wire Wire Line
+	19484 7010 19484 7110
+Connection ~ 19484 7010
+Connection ~ 19484 7110
+Wire Wire Line
+	19484 7110 19484 7210
+Connection ~ 19484 7210
+Wire Wire Line
+	19484 7210 19484 7310
+Connection ~ 19484 7310
+Wire Wire Line
+	19484 7310 19484 7410
+Connection ~ 19484 7410
+Wire Wire Line
+	19484 7410 19484 7510
+Connection ~ 19484 7510
+Wire Wire Line
+	19484 7510 19484 7610
+Connection ~ 19484 7610
+Wire Wire Line
+	19484 7610 19484 7710
+Wire Wire Line
+	22284 4810 22284 4910
+Connection ~ 22284 4910
+Wire Wire Line
+	22284 4910 22284 5010
+Connection ~ 22284 5010
+Wire Wire Line
+	22284 5010 22284 5110
+Connection ~ 22284 5110
+Wire Wire Line
+	22284 5110 22284 5210
+Connection ~ 22284 5210
+Wire Wire Line
+	22284 5210 22284 5310
+Connection ~ 22284 5310
+Wire Wire Line
+	22284 5310 22284 5410
+Connection ~ 22284 5410
+Wire Wire Line
+	22284 5410 22284 6210
+Wire Wire Line
+	22284 6410 22284 7110
+Wire Wire Line
+	22284 7110 21934 7110
+Wire Wire Line
+	21934 7110 21934 7210
+Connection ~ 21934 7110
+Connection ~ 21934 7210
+Wire Wire Line
+	21934 7210 21934 7310
+Connection ~ 21934 7310
+Wire Wire Line
+	21934 7310 21934 7410
+Connection ~ 21934 7410
+Wire Wire Line
+	21934 7410 21934 7510
+Connection ~ 21934 7510
+Wire Wire Line
+	21934 7510 21934 7610
+Connection ~ 21934 7610
+Wire Wire Line
+	21934 7610 21934 7710
+Connection ~ 21934 7710
+Wire Wire Line
+	21934 7710 21934 7810
+Wire Wire Line
+	24634 4810 24634 4910
+Connection ~ 24634 4910
+Wire Wire Line
+	24634 4910 24634 5010
+Connection ~ 24634 5010
+Wire Wire Line
+	24634 5010 24634 5110
+Connection ~ 24634 5110
+Wire Wire Line
+	24634 5110 24634 5210
+Connection ~ 24634 5210
+Wire Wire Line
+	24634 5210 24634 5310
+Connection ~ 24634 5310
+Wire Wire Line
+	24634 5310 24634 5410
+Connection ~ 24634 5410
+Wire Wire Line
+	24634 5410 24634 6210
+Wire Wire Line
+	24634 6410 24634 7110
+Wire Wire Line
+	24634 7110 24134 7110
+Wire Wire Line
+	24134 7110 24134 7210
+Connection ~ 24134 7110
+Connection ~ 24134 7210
+Wire Wire Line
+	24134 7210 24134 7310
+Connection ~ 24134 7310
+Wire Wire Line
+	24134 7310 24134 7410
+Connection ~ 24134 7410
+Wire Wire Line
+	24134 7410 24134 7510
+Connection ~ 24134 7510
+Wire Wire Line
+	24134 7510 24134 7610
+Connection ~ 24134 7610
+Wire Wire Line
+	24134 7610 24134 7710
+Connection ~ 24134 7710
+Wire Wire Line
+	24134 7710 24134 7810
+Wire Wire Line
+	26934 4810 26934 4910
+Connection ~ 26934 4910
+Wire Wire Line
+	26934 4910 26934 5010
+Connection ~ 26934 5010
+Wire Wire Line
+	26934 5010 26934 5110
+Connection ~ 26934 5110
+Wire Wire Line
+	26934 5110 26934 5210
+Connection ~ 26934 5210
+Wire Wire Line
+	26934 5210 26934 5310
+Connection ~ 26934 5310
+Wire Wire Line
+	26934 5310 26934 5410
+Connection ~ 26934 5410
+Wire Wire Line
+	26934 5410 26934 6210
+Wire Wire Line
+	26934 6410 26934 7160
+Wire Wire Line
+	26934 7160 26684 7160
+Wire Wire Line
+	26684 7160 26684 7260
+Connection ~ 26684 7160
+Connection ~ 26684 7260
+Wire Wire Line
+	26684 7260 26684 7360
+Connection ~ 26684 7360
+Wire Wire Line
+	26684 7360 26684 7460
+Connection ~ 26684 7460
+Wire Wire Line
+	26684 7460 26684 7560
+Connection ~ 26684 7560
+Wire Wire Line
+	26684 7560 26684 7660
+Connection ~ 26684 7660
+Wire Wire Line
+	26684 7660 26684 7760
+Connection ~ 26684 7760
+Wire Wire Line
+	26684 7760 26684 7860
+Wire Wire Line
+	29384 4810 29384 4910
+Connection ~ 29384 4910
+Wire Wire Line
+	29384 4910 29384 5010
+Connection ~ 29384 5010
+Wire Wire Line
+	29384 5010 29384 5110
+Connection ~ 29384 5110
+Wire Wire Line
+	29384 5110 29384 5210
+Connection ~ 29384 5210
+Wire Wire Line
+	29384 5210 29384 5310
+Connection ~ 29384 5310
+Wire Wire Line
+	29384 5310 29384 5410
+Connection ~ 29384 5410
+Wire Wire Line
+	29384 5410 29384 6160
+Wire Wire Line
+	29384 6360 29384 7160
+Wire Wire Line
+	29384 7160 28884 7160
+Wire Wire Line
+	28884 7160 28884 7260
+Connection ~ 28884 7160
+Connection ~ 28884 7260
+Wire Wire Line
+	28884 7260 28884 7360
+Connection ~ 28884 7360
+Wire Wire Line
+	28884 7360 28884 7460
+Connection ~ 28884 7460
+Wire Wire Line
+	28884 7460 28884 7560
+Connection ~ 28884 7560
+Wire Wire Line
+	28884 7560 28884 7660
+Connection ~ 28884 7660
+Wire Wire Line
+	28884 7660 28884 7760
+Connection ~ 28884 7760
+Wire Wire Line
+	28884 7760 28884 7860
+Wire Wire Line
+	27384 4360 24934 4360
+Connection ~ 27384 4810
+Wire Wire Line
+	27384 4810 27384 4360
+Connection ~ 27384 4960
+Wire Wire Line
+	27384 4960 27384 4810
+Wire Wire Line
+	27384 5810 27384 4960
+Connection ~ 24934 4360
+Wire Wire Line
+	24934 4360 22634 4360
+Connection ~ 24934 4810
+Wire Wire Line
+	24934 4810 24934 4360
+Connection ~ 24934 4960
+Wire Wire Line
+	24934 4960 24934 4810
+Wire Wire Line
+	24934 5810 24934 4960
+Connection ~ 22634 4360
+Wire Wire Line
+	22634 4360 20284 4360
+Connection ~ 22634 4810
+Wire Wire Line
+	22634 4810 22634 4360
+Connection ~ 22634 4960
+Wire Wire Line
+	22634 4960 22634 4810
+Wire Wire Line
+	22634 5810 22634 4960
+Connection ~ 20284 4360
+Wire Wire Line
+	20284 4360 17834 4360
+Connection ~ 20284 4810
+Wire Wire Line
+	20284 4810 20284 4360
+Connection ~ 20284 4960
+Wire Wire Line
+	20284 4960 20284 4810
+Wire Wire Line
+	20284 5810 20284 4960
+Connection ~ 17834 4360
+Wire Wire Line
+	17834 4360 15234 4360
+Connection ~ 17834 4810
+Wire Wire Line
+	17834 4810 17834 4360
+Connection ~ 17834 4960
+Wire Wire Line
+	17834 4960 17834 4810
+Wire Wire Line
+	17834 5810 17834 4960
+Connection ~ 15234 4360
+Wire Wire Line
+	15234 4360 12534 4360
+Connection ~ 15234 4810
+Wire Wire Line
+	15234 4810 15234 4360
+Connection ~ 15234 4960
+Wire Wire Line
+	15234 4960 15234 4810
+Wire Wire Line
+	15234 5810 15234 4960
+Connection ~ 12534 4360
+Wire Wire Line
+	12534 4360 9984 4360
+Connection ~ 12534 4810
+Wire Wire Line
+	12534 4810 12534 4360
+Connection ~ 12534 4960
+Wire Wire Line
+	12534 4960 12534 4810
+Wire Wire Line
+	12534 5810 12534 4960
+Connection ~ 9984 4360
+Connection ~ 9984 4810
+Wire Wire Line
+	9984 4810 9984 4360
+Connection ~ 9984 4960
+Wire Wire Line
+	9984 4960 9984 4810
+Wire Wire Line
+	9984 5810 9984 4960
+Connection ~ 27384 4360
+$Comp
+L pmd-rescue:74LS373-74xx U?
+U 1 1 5C1D1100
+P 30634 6260
+F 0 "U?" H 30634 7027 50  0000 C CNN
+F 1 "74LS373" H 30634 6936 50  0000 C CNN
+F 2 "" H 30634 6260 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS373" H 30634 6260 50  0001 C CNN
+	1    30634 6260
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
-U 1 1 5C22A75D
-P 11792 2749
-F 0 "#PWR?" H 11792 2499 50  0001 C CNN
-F 1 "GND" H 11797 2576 50  0000 C CNN
-F 2 "" H 11792 2749 50  0001 C CNN
-F 3 "" H 11792 2749 50  0001 C CNN
-	1    11792 2749
+L pmd-rescue:74LS373-74xx U?
+U 1 1 5C29341E
+P 30634 9810
+F 0 "U?" H 30634 10577 50  0000 C CNN
+F 1 "74LS373" H 30634 10486 50  0000 C CNN
+F 2 "" H 30634 9810 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS373" H 30634 9810 50  0001 C CNN
+	1    30634 9810
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
-U 1 1 5C23A140
-P 9592 2749
-F 0 "#PWR?" H 9592 2499 50  0001 C CNN
-F 1 "GND" H 9597 2576 50  0000 C CNN
-F 2 "" H 9592 2749 50  0001 C CNN
-F 3 "" H 9592 2749 50  0001 C CNN
-	1    9592 2749
+L pmd-rescue:74LS373-74xx U?
+U 1 1 5C2C3D60
+P 9206 11236
+F 0 "U?" H 9206 12003 50  0000 C CNN
+F 1 "74LS373" H 9206 11912 50  0000 C CNN
+F 2 "" H 9206 11236 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS373" H 9206 11236 50  0001 C CNN
+	1    9206 11236
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	27384 4360 31634 4360
+Wire Wire Line
+	31634 4360 31634 5760
+$Comp
+L Device:D D?
+U 1 1 5C65E119
+P 31284 6460
+F 0 "D?" H 31284 6584 50  0001 C CNN
+F 1 "D" H 31284 6585 50  0001 C CNN
+F 2 "" H 31284 6460 50  0001 C CNN
+F 3 "~" H 31284 6460 50  0001 C CNN
+	1    31284 6460
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
-U 1 1 5C249BA1
-P 7392 2749
-F 0 "#PWR?" H 7392 2499 50  0001 C CNN
-F 1 "GND" H 7397 2576 50  0000 C CNN
-F 2 "" H 7392 2749 50  0001 C CNN
-F 3 "" H 7392 2749 50  0001 C CNN
-	1    7392 2749
-	1    0    0    -1  
+L Device:R_Small Rez_8x?
+U 1 1 5CA2954C
+P 31534 5760
+F 0 "Rez_8x?" V 31638 5760 50  0001 C CNN
+F 1 "R_Small" V 31639 5760 50  0001 C CNN
+F 2 "" H 31534 5760 50  0001 C CNN
+F 3 "~" H 31534 5760 50  0001 C CNN
+	1    31534 5760
+	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR?
-U 1 1 5C2595DE
-P 5292 2749
-F 0 "#PWR?" H 5292 2499 50  0001 C CNN
-F 1 "GND" H 5297 2576 50  0000 C CNN
-F 2 "" H 5292 2749 50  0001 C CNN
-F 3 "" H 5292 2749 50  0001 C CNN
-	1    5292 2749
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 5C26913B
-P 3092 2749
-F 0 "#PWR?" H 3092 2499 50  0001 C CNN
-F 1 "GND" H 3097 2576 50  0000 C CNN
-F 2 "" H 3092 2749 50  0001 C CNN
-F 3 "" H 3092 2749 50  0001 C CNN
-	1    3092 2749
+L Device:D D?
+U 1 1 5CB1BF22
+P 31284 6360
+F 0 "D?" H 31284 6484 50  0001 C CNN
+F 1 "D" H 31284 6485 50  0001 C CNN
+F 2 "" H 31284 6360 50  0001 C CNN
+F 3 "~" H 31284 6360 50  0001 C CNN
+	1    31284 6360
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:D D?
-U 1 1 5C2796B7
-P 18874 4000
-F 0 "D?" H 18874 4216 50  0000 C CNN
-F 1 "D" H 18874 4125 50  0000 C CNN
-F 2 "" H 18874 4000 50  0001 C CNN
-F 3 "~" H 18874 4000 50  0001 C CNN
-	1    18874 4000
+U 1 1 5CC9FF1F
+P 31284 6260
+F 0 "D?" H 31284 6384 50  0001 C CNN
+F 1 "D" H 31284 6385 50  0001 C CNN
+F 2 "" H 31284 6260 50  0001 C CNN
+F 3 "~" H 31284 6260 50  0001 C CNN
+	1    31284 6260
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:D D?
-U 1 1 5C298872
-P 18874 4200
-F 0 "D?" H 18874 4416 50  0000 C CNN
-F 1 "D" H 18874 4325 50  0000 C CNN
-F 2 "" H 18874 4200 50  0001 C CNN
-F 3 "~" H 18874 4200 50  0001 C CNN
-	1    18874 4200
+U 1 1 5CCD0708
+P 31284 6160
+F 0 "D?" H 31284 6284 50  0001 C CNN
+F 1 "D" H 31284 6285 50  0001 C CNN
+F 2 "" H 31284 6160 50  0001 C CNN
+F 3 "~" H 31284 6160 50  0001 C CNN
+	1    31284 6160
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:D D?
-U 1 1 5C2B7B42
-P 18874 4300
-F 0 "D?" H 18874 4516 50  0000 C CNN
-F 1 "D" H 18874 4425 50  0000 C CNN
-F 2 "" H 18874 4300 50  0001 C CNN
-F 3 "~" H 18874 4300 50  0001 C CNN
-	1    18874 4300
+U 1 1 5CD00EF1
+P 31284 6060
+F 0 "D?" H 31284 6184 50  0001 C CNN
+F 1 "D" H 31284 6185 50  0001 C CNN
+F 2 "" H 31284 6060 50  0001 C CNN
+F 3 "~" H 31284 6060 50  0001 C CNN
+	1    31284 6060
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:D D?
-U 1 1 5C2D6D72
-P 18874 4100
-F 0 "D?" H 18874 4316 50  0000 C CNN
-F 1 "D" H 18874 4225 50  0000 C CNN
-F 2 "" H 18874 4100 50  0001 C CNN
-F 3 "~" H 18874 4100 50  0001 C CNN
-	1    18874 4100
+U 1 1 5CD316DA
+P 31284 5960
+F 0 "D?" H 31284 6084 50  0001 C CNN
+F 1 "D" H 31284 6085 50  0001 C CNN
+F 2 "" H 31284 5960 50  0001 C CNN
+F 3 "~" H 31284 5960 50  0001 C CNN
+	1    31284 5960
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:D D?
-U 1 1 5C2E6634
-P 18874 3900
-F 0 "D?" H 18874 4116 50  0000 C CNN
-F 1 "D" H 18874 4025 50  0000 C CNN
-F 2 "" H 18874 3900 50  0001 C CNN
-F 3 "~" H 18874 3900 50  0001 C CNN
-	1    18874 3900
+U 1 1 5CD61EC3
+P 31284 5860
+F 0 "D?" H 31284 5984 50  0001 C CNN
+F 1 "D" H 31284 5985 50  0001 C CNN
+F 2 "" H 31284 5860 50  0001 C CNN
+F 3 "~" H 31284 5860 50  0001 C CNN
+	1    31284 5860
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:D D?
-U 1 1 5C2F60EA
-P 18874 4400
-F 0 "D?" H 18874 4616 50  0000 C CNN
-F 1 "D" H 18874 4525 50  0000 C CNN
-F 2 "" H 18874 4400 50  0001 C CNN
-F 3 "~" H 18874 4400 50  0001 C CNN
-	1    18874 4400
+U 1 1 5CD926AC
+P 31284 5760
+F 0 "D?" H 31284 5884 50  0001 C CNN
+F 1 "D" H 31284 5885 50  0001 C CNN
+F 2 "" H 31284 5760 50  0001 C CNN
+F 3 "~" H 31284 5760 50  0001 C CNN
+	1    31284 5760
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small Rez_8x?
+U 1 1 5CE546B2
+P 31534 5860
+F 0 "Rez_8x?" V 31638 5860 50  0001 C CNN
+F 1 "R_Small" V 31639 5860 50  0001 C CNN
+F 2 "" H 31534 5860 50  0001 C CNN
+F 3 "~" H 31534 5860 50  0001 C CNN
+	1    31534 5860
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_Small Rez_8x?
+U 1 1 5CEB56B8
+P 31534 5960
+F 0 "Rez_8x?" V 31638 5960 50  0001 C CNN
+F 1 "R_Small" V 31639 5960 50  0001 C CNN
+F 2 "" H 31534 5960 50  0001 C CNN
+F 3 "~" H 31534 5960 50  0001 C CNN
+	1    31534 5960
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_Small Rez_8x?
+U 1 1 5CEE5EA1
+P 31534 6060
+F 0 "Rez_8x?" V 31638 6060 50  0001 C CNN
+F 1 "R_Small" V 31639 6060 50  0001 C CNN
+F 2 "" H 31534 6060 50  0001 C CNN
+F 3 "~" H 31534 6060 50  0001 C CNN
+	1    31534 6060
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_Small Rez_8x?
+U 1 1 5CF1668A
+P 31534 6160
+F 0 "Rez_8x?" V 31638 6160 50  0001 C CNN
+F 1 "R_Small" V 31639 6160 50  0001 C CNN
+F 2 "" H 31534 6160 50  0001 C CNN
+F 3 "~" H 31534 6160 50  0001 C CNN
+	1    31534 6160
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_Small Rez_8x?
+U 1 1 5CF46E73
+P 31534 6260
+F 0 "Rez_8x?" V 31638 6260 50  0001 C CNN
+F 1 "R_Small" V 31639 6260 50  0001 C CNN
+F 2 "" H 31534 6260 50  0001 C CNN
+F 3 "~" H 31534 6260 50  0001 C CNN
+	1    31534 6260
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_Small Rez_8x?
+U 1 1 5CF7765C
+P 31534 6360
+F 0 "Rez_8x?" V 31638 6360 50  0001 C CNN
+F 1 "R_Small" V 31639 6360 50  0001 C CNN
+F 2 "" H 31534 6360 50  0001 C CNN
+F 3 "~" H 31534 6360 50  0001 C CNN
+	1    31534 6360
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_Small Rez_8x?
+U 1 1 5CFA7E45
+P 31534 6460
+F 0 "Rez_8x?" V 31638 6460 50  0001 C CNN
+F 1 "R_Small" V 31639 6460 50  0001 C CNN
+F 2 "" H 31534 6460 50  0001 C CNN
+F 3 "~" H 31534 6460 50  0001 C CNN
+	1    31534 6460
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_Small Rez_8x?
+U 1 1 5D06A0B8
+P 31534 9310
+F 0 "Rez_8x?" V 31638 9310 50  0001 C CNN
+F 1 "R_Small" V 31639 9310 50  0001 C CNN
+F 2 "" H 31534 9310 50  0001 C CNN
+F 3 "~" H 31534 9310 50  0001 C CNN
+	1    31534 9310
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 5D06A0D0
+P 31284 9610
+F 0 "D?" H 31284 9734 50  0001 C CNN
+F 1 "D" H 31284 9735 50  0001 C CNN
+F 2 "" H 31284 9610 50  0001 C CNN
+F 3 "~" H 31284 9610 50  0001 C CNN
+	1    31284 9610
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:D D?
-U 1 1 5C3059FE
-P 18874 4500
-F 0 "D?" H 18874 4716 50  0000 C CNN
-F 1 "D" H 18874 4625 50  0000 C CNN
-F 2 "" H 18874 4500 50  0001 C CNN
-F 3 "~" H 18874 4500 50  0001 C CNN
-	1    18874 4500
+U 1 1 5D06A0D6
+P 31284 9510
+F 0 "D?" H 31284 9634 50  0001 C CNN
+F 1 "D" H 31284 9635 50  0001 C CNN
+F 2 "" H 31284 9510 50  0001 C CNN
+F 3 "~" H 31284 9510 50  0001 C CNN
+	1    31284 9510
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:D D?
-U 1 1 5C3152AF
-P 18874 4600
-F 0 "D?" H 18874 4816 50  0000 C CNN
-F 1 "D" H 18874 4725 50  0000 C CNN
-F 2 "" H 18874 4600 50  0001 C CNN
-F 3 "~" H 18874 4600 50  0001 C CNN
-	1    18874 4600
+U 1 1 5D06A0DC
+P 31284 9410
+F 0 "D?" H 31284 9534 50  0001 C CNN
+F 1 "D" H 31284 9535 50  0001 C CNN
+F 2 "" H 31284 9410 50  0001 C CNN
+F 3 "~" H 31284 9410 50  0001 C CNN
+	1    31284 9410
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:D D?
-U 1 1 5C335014
-P 18875 5976
-F 0 "D?" H 18875 6192 50  0000 C CNN
-F 1 "D" H 18875 6101 50  0000 C CNN
-F 2 "" H 18875 5976 50  0001 C CNN
-F 3 "~" H 18875 5976 50  0001 C CNN
-	1    18875 5976
+U 1 1 5D06A0E2
+P 31284 9310
+F 0 "D?" H 31284 9434 50  0001 C CNN
+F 1 "D" H 31284 9435 50  0001 C CNN
+F 2 "" H 31284 9310 50  0001 C CNN
+F 3 "~" H 31284 9310 50  0001 C CNN
+	1    31284 9310
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small Rez_8x?
+U 1 1 5D06A0E8
+P 31534 9410
+F 0 "Rez_8x?" V 31638 9410 50  0001 C CNN
+F 1 "R_Small" V 31639 9410 50  0001 C CNN
+F 2 "" H 31534 9410 50  0001 C CNN
+F 3 "~" H 31534 9410 50  0001 C CNN
+	1    31534 9410
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_Small Rez_8x?
+U 1 1 5D06A0EE
+P 31534 9510
+F 0 "Rez_8x?" V 31638 9510 50  0001 C CNN
+F 1 "R_Small" V 31639 9510 50  0001 C CNN
+F 2 "" H 31534 9510 50  0001 C CNN
+F 3 "~" H 31534 9510 50  0001 C CNN
+	1    31534 9510
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_Small Rez_8x?
+U 1 1 5D06A0F4
+P 31534 9610
+F 0 "Rez_8x?" V 31638 9610 50  0001 C CNN
+F 1 "R_Small" V 31639 9610 50  0001 C CNN
+F 2 "" H 31534 9610 50  0001 C CNN
+F 3 "~" H 31534 9610 50  0001 C CNN
+	1    31534 9610
+	0    -1   -1   0   
+$EndComp
+Connection ~ 31634 5760
+Wire Wire Line
+	31634 5760 31634 5860
+Connection ~ 31634 5860
+Wire Wire Line
+	31634 5860 31634 5960
+Connection ~ 31634 5960
+Wire Wire Line
+	31634 5960 31634 6060
+Connection ~ 31634 6060
+Wire Wire Line
+	31634 6060 31634 6160
+Connection ~ 31634 6160
+Wire Wire Line
+	31634 6160 31634 6260
+Connection ~ 31634 6260
+Wire Wire Line
+	31634 6260 31634 6360
+Connection ~ 31634 6360
+Wire Wire Line
+	31634 6360 31634 6460
+Connection ~ 31634 6460
+Connection ~ 31634 9310
+Wire Wire Line
+	31634 9310 31634 9410
+Connection ~ 31634 9410
+Wire Wire Line
+	31634 9410 31634 9510
+Connection ~ 31634 9510
+Wire Wire Line
+	31634 9510 31634 9610
+Connection ~ 31634 9610
+Wire Wire Line
+	30134 6760 30134 7010
+Wire Wire Line
+	30134 7010 31784 7010
+Wire Wire Line
+	30134 10560 31784 10560
+Wire Wire Line
+	30134 10310 30134 10560
+Connection ~ 31784 10560
+Text Label 31634 10910 2    50   ~ 0
+Vcc
+Wire Bus Line
+	30134 5760 30134 6110
+Wire Bus Line
+	30134 6110 29934 6110
+Connection ~ 30134 6110
+Wire Bus Line
+	30134 6110 30134 6460
+Wire Bus Line
+	30134 10010 30134 9660
+Wire Bus Line
+	30134 9660 29934 9660
+Connection ~ 30134 9660
+Wire Bus Line
+	30134 9660 30134 9310
+Wire Bus Line
+	29934 9010 27684 9010
+Connection ~ 29934 9010
+Wire Bus Line
+	29934 9010 29934 9660
+Wire Bus Line
+	27884 7160 27884 7510
+Wire Bus Line
+	27884 7510 27684 7510
+Wire Bus Line
+	27684 7510 27684 9010
+Connection ~ 27884 7510
+Wire Bus Line
+	27884 7510 27884 7860
+Connection ~ 27684 9010
+Wire Bus Line
+	27684 9010 25484 9010
+Wire Bus Line
+	25684 7160 25684 7510
+Wire Bus Line
+	25684 7510 25484 7510
+Wire Bus Line
+	25484 7510 25484 9010
+Connection ~ 25684 7510
+Wire Bus Line
+	25684 7510 25684 7860
+Connection ~ 25484 9010
+Wire Bus Line
+	25484 9010 22884 9010
+Wire Bus Line
+	23134 7110 23134 7460
+Wire Bus Line
+	23134 7460 22884 7460
+Wire Bus Line
+	22884 7460 22884 9010
+Connection ~ 23134 7460
+Wire Bus Line
+	23134 7460 23134 7810
+Connection ~ 22884 9010
+Wire Bus Line
+	22884 9010 18284 9010
+Wire Bus Line
+	18484 7010 18484 7360
+Wire Bus Line
+	18484 7360 18284 7360
+Wire Bus Line
+	18284 7360 18284 9010
+Connection ~ 18484 7360
+Wire Bus Line
+	18484 7360 18484 7710
+Connection ~ 18284 9010
+Wire Bus Line
+	18284 9010 15734 9010
+Wire Bus Line
+	15934 6960 15934 7310
+Wire Bus Line
+	15934 7310 15734 7310
+Wire Bus Line
+	15734 7310 15734 9010
+Connection ~ 15934 7310
+Wire Bus Line
+	15934 7310 15934 7660
+Connection ~ 15734 9010
+Wire Bus Line
+	15734 9010 12884 9010
+Wire Bus Line
+	13084 6960 13084 7310
+Wire Bus Line
+	13084 7310 12884 7310
+Wire Bus Line
+	12884 7310 12884 9010
+Connection ~ 13084 7310
+Wire Bus Line
+	13084 7310 13084 7660
+Connection ~ 12884 9010
+Wire Bus Line
+	12884 9010 10384 9010
+Wire Bus Line
+	10534 7060 10534 7410
+Wire Bus Line
+	10534 7410 10384 7410
+Wire Bus Line
+	10384 7410 10384 9010
+Connection ~ 10534 7410
+Wire Bus Line
+	10534 7410 10534 7760
+Connection ~ 10384 9010
+Wire Bus Line
+	10384 9010 8984 9010
+Wire Wire Line
+	9684 4360 9984 4360
+$Comp
+L pmd-rescue:74LS244N-74xx U?
+U 1 1 5DF5E0B4
+P 28106 11036
+F 0 "U?" H 28106 11603 50  0000 C CNN
+F 1 "74LS244N" H 28106 11512 50  0000 C CNN
+F 2 "" H 28106 11036 50  0001 C CNN
+F 3 "" H 28106 11036 50  0001 C CNN
+	1    28106 11036
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 5E15A477
+P 11656 10736
+F 0 "SW?" H 11656 10929 50  0001 C CNN
+F 1 "SW_Push" H 11656 10930 50  0001 C CNN
+F 2 "" H 11656 10936 50  0001 C CNN
+F 3 "" H 11656 10936 50  0001 C CNN
+	1    11656 10736
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 5E23DF4A
+P 11006 10736
+F 0 "SW?" H 11006 10929 50  0001 C CNN
+F 1 "SW_Push" H 11006 10930 50  0001 C CNN
+F 2 "" H 11006 10936 50  0001 C CNN
+F 3 "" H 11006 10936 50  0001 C CNN
+	1    11006 10736
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 5E276CA4
+P 12956 10736
+F 0 "SW?" H 12956 10929 50  0001 C CNN
+F 1 "SW_Push" H 12956 10930 50  0001 C CNN
+F 2 "" H 12956 10936 50  0001 C CNN
+F 3 "" H 12956 10936 50  0001 C CNN
+	1    12956 10736
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 5E276CAA
+P 12306 10736
+F 0 "SW?" H 12306 10929 50  0001 C CNN
+F 1 "SW_Push" H 12306 10930 50  0001 C CNN
+F 2 "" H 12306 10936 50  0001 C CNN
+F 3 "" H 12306 10936 50  0001 C CNN
+	1    12306 10736
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 5E2AFA0E
+P 11656 10986
+F 0 "SW?" H 11656 11179 50  0001 C CNN
+F 1 "SW_Push" H 11656 11180 50  0001 C CNN
+F 2 "" H 11656 11186 50  0001 C CNN
+F 3 "" H 11656 11186 50  0001 C CNN
+	1    11656 10986
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 5E2AFA14
+P 11006 10986
+F 0 "SW?" H 11006 11179 50  0001 C CNN
+F 1 "SW_Push" H 11006 11180 50  0001 C CNN
+F 2 "" H 11006 11186 50  0001 C CNN
+F 3 "" H 11006 11186 50  0001 C CNN
+	1    11006 10986
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 5E2AFA1A
+P 12956 10986
+F 0 "SW?" H 12956 11179 50  0001 C CNN
+F 1 "SW_Push" H 12956 11180 50  0001 C CNN
+F 2 "" H 12956 11186 50  0001 C CNN
+F 3 "" H 12956 11186 50  0001 C CNN
+	1    12956 10986
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 5E2AFA20
+P 12306 10986
+F 0 "SW?" H 12306 11179 50  0001 C CNN
+F 1 "SW_Push" H 12306 11180 50  0001 C CNN
+F 2 "" H 12306 11186 50  0001 C CNN
+F 3 "" H 12306 11186 50  0001 C CNN
+	1    12306 10986
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 5E2E8798
+P 11656 11236
+F 0 "SW?" H 11656 11429 50  0001 C CNN
+F 1 "SW_Push" H 11656 11430 50  0001 C CNN
+F 2 "" H 11656 11436 50  0001 C CNN
+F 3 "" H 11656 11436 50  0001 C CNN
+	1    11656 11236
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 5E2E879E
+P 11006 11236
+F 0 "SW?" H 11006 11429 50  0001 C CNN
+F 1 "SW_Push" H 11006 11430 50  0001 C CNN
+F 2 "" H 11006 11436 50  0001 C CNN
+F 3 "" H 11006 11436 50  0001 C CNN
+	1    11006 11236
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 5E2E87A4
+P 12956 11236
+F 0 "SW?" H 12956 11429 50  0001 C CNN
+F 1 "SW_Push" H 12956 11430 50  0001 C CNN
+F 2 "" H 12956 11436 50  0001 C CNN
+F 3 "" H 12956 11436 50  0001 C CNN
+	1    12956 11236
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 5E2E87AA
+P 12306 11236
+F 0 "SW?" H 12306 11429 50  0001 C CNN
+F 1 "SW_Push" H 12306 11430 50  0001 C CNN
+F 2 "" H 12306 11436 50  0001 C CNN
+F 3 "" H 12306 11436 50  0001 C CNN
+	1    12306 11236
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 5E2E87B0
+P 11656 11486
+F 0 "SW?" H 11656 11679 50  0001 C CNN
+F 1 "SW_Push" H 11656 11680 50  0001 C CNN
+F 2 "" H 11656 11686 50  0001 C CNN
+F 3 "" H 11656 11686 50  0001 C CNN
+	1    11656 11486
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 5E2E87B6
+P 11006 11486
+F 0 "SW?" H 11006 11679 50  0001 C CNN
+F 1 "SW_Push" H 11006 11680 50  0001 C CNN
+F 2 "" H 11006 11686 50  0001 C CNN
+F 3 "" H 11006 11686 50  0001 C CNN
+	1    11006 11486
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 5E2E87BC
+P 12956 11486
+F 0 "SW?" H 12956 11679 50  0001 C CNN
+F 1 "SW_Push" H 12956 11680 50  0001 C CNN
+F 2 "" H 12956 11686 50  0001 C CNN
+F 3 "" H 12956 11686 50  0001 C CNN
+	1    12956 11486
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 5E2E87C2
+P 12306 11486
+F 0 "SW?" H 12306 11679 50  0001 C CNN
+F 1 "SW_Push" H 12306 11680 50  0001 C CNN
+F 2 "" H 12306 11686 50  0001 C CNN
+F 3 "" H 12306 11686 50  0001 C CNN
+	1    12306 11486
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	25306 10736 25306 11486
+Wire Wire Line
+	25306 10736 27606 10736
+Wire Wire Line
+	27606 10836 25406 10836
+Wire Wire Line
+	27606 10936 25506 10936
+Wire Wire Line
+	27606 11036 25606 11036
+Wire Wire Line
+	25506 10936 25506 11236
+Wire Wire Line
+	25606 11036 25606 11386
+Wire Wire Line
+	25306 11486 25206 11486
+Wire Wire Line
+	25406 11586 25206 11586
+Wire Wire Line
+	25506 11686 25206 11686
+Wire Wire Line
+	25606 11786 25206 11786
+$Comp
+L Device:R_Small Rez_8x?
+U 1 1 5E6C0ECF
+P 25106 11486
+F 0 "Rez_8x?" V 25210 11486 50  0001 C CNN
+F 1 "R_Small" V 25211 11486 50  0001 C CNN
+F 2 "" H 25106 11486 50  0001 C CNN
+F 3 "~" H 25106 11486 50  0001 C CNN
+	1    25106 11486
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_Small Rez_8x?
+U 1 1 5E735FE2
+P 25106 11586
+F 0 "Rez_8x?" V 25210 11586 50  0001 C CNN
+F 1 "R_Small" V 25211 11586 50  0001 C CNN
+F 2 "" H 25106 11586 50  0001 C CNN
+F 3 "~" H 25106 11586 50  0001 C CNN
+	1    25106 11586
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_Small Rez_8x?
+U 1 1 5E770851
+P 25106 11686
+F 0 "Rez_8x?" V 25210 11686 50  0001 C CNN
+F 1 "R_Small" V 25211 11686 50  0001 C CNN
+F 2 "" H 25106 11686 50  0001 C CNN
+F 3 "~" H 25106 11686 50  0001 C CNN
+	1    25106 11686
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_Small Rez_8x?
+U 1 1 5E7AB0C0
+P 25106 11786
+F 0 "Rez_8x?" V 25210 11786 50  0001 C CNN
+F 1 "R_Small" V 25211 11786 50  0001 C CNN
+F 2 "" H 25106 11786 50  0001 C CNN
+F 3 "~" H 25106 11786 50  0001 C CNN
+	1    25106 11786
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	25006 11486 25006 11586
+Connection ~ 25006 11586
+Wire Wire Line
+	25006 11586 25006 11686
+Connection ~ 25006 11686
+Wire Wire Line
+	25006 11686 25006 11786
+Connection ~ 25006 11786
+Wire Wire Line
+	25006 11786 25006 11886
+Text Label 25006 11886 2    50   ~ 0
+Vcc
+Wire Wire Line
+	12506 10736 12656 10736
+Wire Wire Line
+	12506 10986 12656 10986
+Wire Wire Line
+	12756 11236 12656 11236
+Wire Wire Line
+	12506 11486 12656 11486
+Wire Wire Line
+	12656 10736 12656 10986
+Connection ~ 12656 10736
+Wire Wire Line
+	12656 10736 12756 10736
+Connection ~ 12656 10986
+Wire Wire Line
+	12656 10986 12756 10986
+Wire Wire Line
+	12656 10986 12656 11236
+Connection ~ 12656 11236
+Wire Wire Line
+	12656 11236 12506 11236
+Wire Wire Line
+	12656 11236 12656 11486
+Connection ~ 12656 11486
+Wire Wire Line
+	12656 11486 12756 11486
+Wire Wire Line
+	12656 11486 12656 11936
+Wire Wire Line
+	12656 11936 12306 11936
+Wire Wire Line
+	12106 10736 12006 10736
+Wire Wire Line
+	11856 10986 12006 10986
+Wire Wire Line
+	12106 11236 12006 11236
+Wire Wire Line
+	11856 11486 12006 11486
+Wire Wire Line
+	12006 10736 12006 10986
+Connection ~ 12006 10736
+Wire Wire Line
+	12006 10736 11856 10736
+Connection ~ 12006 10986
+Wire Wire Line
+	12006 10986 12106 10986
+Wire Wire Line
+	12006 10986 12006 11236
+Connection ~ 12006 11236
+Wire Wire Line
+	12006 11236 11856 11236
+Wire Wire Line
+	12006 11236 12006 11486
+Connection ~ 12006 11486
+Wire Wire Line
+	12006 11486 12106 11486
+Wire Wire Line
+	12006 11486 12006 11836
+Wire Wire Line
+	12006 11836 11756 11836
+Wire Wire Line
+	11456 10736 11356 10736
+Wire Wire Line
+	11206 10986 11356 10986
+Wire Wire Line
+	11456 11236 11356 11236
+Wire Wire Line
+	11206 11486 11356 11486
+Wire Wire Line
+	11356 10736 11356 10986
+Connection ~ 11356 10736
+Wire Wire Line
+	11356 10736 11206 10736
+Connection ~ 11356 10986
+Wire Wire Line
+	11356 10986 11456 10986
+Wire Wire Line
+	11356 10986 11356 11236
+Connection ~ 11356 11236
+Wire Wire Line
+	11356 11236 11206 11236
+Wire Wire Line
+	11356 11236 11356 11486
+Connection ~ 11356 11486
+Wire Wire Line
+	11356 11486 11456 11486
+Wire Wire Line
+	11356 11486 11356 11736
+Wire Wire Line
+	11356 11736 11056 11736
+Wire Wire Line
+	10806 11486 10806 11236
+Connection ~ 10806 10986
+Wire Wire Line
+	10806 10986 10806 10736
+Connection ~ 10806 11236
+Wire Wire Line
+	10806 11236 10806 10986
+Connection ~ 10806 10736
+$Comp
+L Device:D D?
+U 1 1 5F16CE44
+P 9856 10736
+F 0 "D?" H 9856 10860 50  0001 C CNN
+F 1 "D" H 9856 10861 50  0001 C CNN
+F 2 "" H 9856 10736 50  0001 C CNN
+F 3 "~" H 9856 10736 50  0001 C CNN
+	1    9856 10736
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:D D?
-U 1 1 5C33501B
-P 18875 6176
-F 0 "D?" H 18875 6392 50  0000 C CNN
-F 1 "D" H 18875 6301 50  0000 C CNN
-F 2 "" H 18875 6176 50  0001 C CNN
-F 3 "~" H 18875 6176 50  0001 C CNN
-	1    18875 6176
+U 1 1 5F1F9009
+P 10906 11736
+F 0 "D?" H 10906 11860 50  0001 C CNN
+F 1 "D" H 10906 11861 50  0001 C CNN
+F 2 "" H 10906 11736 50  0001 C CNN
+F 3 "~" H 10906 11736 50  0001 C CNN
+	1    10906 11736
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:D D?
-U 1 1 5C335022
-P 18875 6276
-F 0 "D?" H 18875 6492 50  0000 C CNN
-F 1 "D" H 18875 6401 50  0000 C CNN
-F 2 "" H 18875 6276 50  0001 C CNN
-F 3 "~" H 18875 6276 50  0001 C CNN
-	1    18875 6276
+U 1 1 5F23F0D1
+P 11606 11836
+F 0 "D?" H 11606 11960 50  0001 C CNN
+F 1 "D" H 11606 11961 50  0001 C CNN
+F 2 "" H 11606 11836 50  0001 C CNN
+F 3 "~" H 11606 11836 50  0001 C CNN
+	1    11606 11836
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:D D?
-U 1 1 5C335029
-P 18875 6076
-F 0 "D?" H 18875 6292 50  0000 C CNN
-F 1 "D" H 18875 6201 50  0000 C CNN
-F 2 "" H 18875 6076 50  0001 C CNN
-F 3 "~" H 18875 6076 50  0001 C CNN
-	1    18875 6076
+U 1 1 5F285199
+P 12156 11936
+F 0 "D?" H 12156 12060 50  0001 C CNN
+F 1 "D" H 12156 12061 50  0001 C CNN
+F 2 "" H 12156 11936 50  0001 C CNN
+F 3 "~" H 12156 11936 50  0001 C CNN
+	1    12156 11936
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10006 10736 10806 10736
+Wire Wire Line
+	9706 10836 10506 10836
+Wire Wire Line
+	10506 10836 10506 11736
+Wire Wire Line
+	10506 11736 10756 11736
+Wire Wire Line
+	9706 10936 10406 10936
+Wire Wire Line
+	10406 10936 10406 11836
+Wire Wire Line
+	10406 11836 11456 11836
+Wire Wire Line
+	9706 11036 10306 11036
+Wire Wire Line
+	10306 11036 10306 11936
+Wire Wire Line
+	10306 11936 12006 11936
+Wire Bus Line
+	28606 10186 28606 11036
+Wire Wire Line
+	25306 10736 13156 10736
+Connection ~ 25306 10736
+Wire Wire Line
+	13156 10986 25406 10986
+Wire Wire Line
+	25406 10836 25406 10986
+Connection ~ 25406 10986
+Wire Wire Line
+	25406 10986 25406 11586
+Wire Wire Line
+	13156 11236 25506 11236
+Connection ~ 25506 11236
+Wire Wire Line
+	25506 11236 25506 11686
+Wire Wire Line
+	13156 11486 24856 11486
+Wire Wire Line
+	24856 11486 24856 11386
+Wire Wire Line
+	24856 11386 25606 11386
+Connection ~ 25606 11386
+Wire Wire Line
+	25606 11386 25606 11786
+Wire Bus Line
+	8706 10186 8706 11436
+$Comp
+L pmd-rescue:74159-74xx_IEEE U?
+U 1 1 5FC4A75D
+P 3594 7126
+F 0 "U?" H 3594 8242 50  0001 C CNN
+F 1 "74159" H 3594 8099 50  0000 C CNN
+F 2 "" H 3594 7126 50  0001 C CNN
+F 3 "" H 3594 7126 50  0001 C CNN
+	1    3594 7126
+	1    0    0    -1  
+$EndComp
+Text Label 8706 11636 2    50   ~ 0
+GND
+Wire Wire Line
+	10584 7960 10534 7960
+Text Label 10534 7960 2    50   ~ 0
+GND
+Wire Wire Line
+	13134 7860 13084 7860
+Text Label 13084 7860 2    50   ~ 0
+GND
+Wire Wire Line
+	15984 7860 15934 7860
+Text Label 15934 7860 2    50   ~ 0
+GND
+Wire Wire Line
+	18534 7910 18484 7910
+Text Label 18484 7910 2    50   ~ 0
+GND
+Wire Wire Line
+	20984 8010 20934 8010
+Text Label 20934 8010 2    50   ~ 0
+GND
+Wire Wire Line
+	23184 8010 23134 8010
+Text Label 23134 8010 2    50   ~ 0
+GND
+Text Label 25056 11936 0    50   ~ 0
+4x10k
+Text Label 25684 8060 2    50   ~ 0
+GND
+Text Label 27884 8060 2    50   ~ 0
+GND
+Wire Wire Line
+	30134 6660 29868 6660
+Wire Wire Line
+	31634 9810 31634 10910
+Connection ~ 31634 9810
+$Comp
+L Device:R_Small Rez_8x?
+U 1 1 5D06A100
+P 31534 9810
+F 0 "Rez_8x?" V 31638 9810 50  0001 C CNN
+F 1 "R_Small" V 31639 9810 50  0001 C CNN
+F 2 "" H 31534 9810 50  0001 C CNN
+F 3 "~" H 31534 9810 50  0001 C CNN
+	1    31534 9810
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	31634 9710 31634 9810
+Wire Wire Line
+	31634 9610 31634 9710
+Connection ~ 31634 9710
+$Comp
+L Device:R_Small Rez_8x?
+U 1 1 5D06A0FA
+P 31534 9710
+F 0 "Rez_8x?" V 31638 9710 50  0001 C CNN
+F 1 "R_Small" V 31639 9710 50  0001 C CNN
+F 2 "" H 31534 9710 50  0001 C CNN
+F 3 "~" H 31534 9710 50  0001 C CNN
+	1    31534 9710
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 5D06A0CA
+P 31284 9710
+F 0 "D?" H 31284 9834 50  0001 C CNN
+F 1 "D" H 31284 9835 50  0001 C CNN
+F 2 "" H 31284 9710 50  0001 C CNN
+F 3 "~" H 31284 9710 50  0001 C CNN
+	1    31284 9710
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:D D?
-U 1 1 5C335030
-P 18875 5876
-F 0 "D?" H 18875 6092 50  0000 C CNN
-F 1 "D" H 18875 6001 50  0000 C CNN
-F 2 "" H 18875 5876 50  0001 C CNN
-F 3 "~" H 18875 5876 50  0001 C CNN
-	1    18875 5876
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D D?
-U 1 1 5C335037
-P 18875 6376
-F 0 "D?" H 18875 6592 50  0000 C CNN
-F 1 "D" H 18875 6501 50  0000 C CNN
-F 2 "" H 18875 6376 50  0001 C CNN
-F 3 "~" H 18875 6376 50  0001 C CNN
-	1    18875 6376
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D D?
-U 1 1 5C33503E
-P 18875 6476
-F 0 "D?" H 18875 6692 50  0000 C CNN
-F 1 "D" H 18875 6601 50  0000 C CNN
-F 2 "" H 18875 6476 50  0001 C CNN
-F 3 "~" H 18875 6476 50  0001 C CNN
-	1    18875 6476
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D D?
-U 1 1 5C335045
-P 18875 6576
-F 0 "D?" H 18875 6792 50  0000 C CNN
-F 1 "D" H 18875 6701 50  0000 C CNN
-F 2 "" H 18875 6576 50  0001 C CNN
-F 3 "~" H 18875 6576 50  0001 C CNN
-	1    18875 6576
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 5C344C0B
-P 19175 5876
-F 0 "R?" V 19382 5876 50  0000 C CNN
-F 1 "R" V 19291 5876 50  0000 C CNN
-F 2 "" V 19105 5876 50  0001 C CNN
-F 3 "~" H 19175 5876 50  0001 C CNN
-	1    19175 5876
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 5C344F0F
-P 19175 5976
-F 0 "R?" V 19382 5976 50  0000 C CNN
-F 1 "R" V 19291 5976 50  0000 C CNN
-F 2 "" V 19105 5976 50  0001 C CNN
-F 3 "~" H 19175 5976 50  0001 C CNN
-	1    19175 5976
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 5C383250
-P 19175 6076
-F 0 "R?" V 19382 6076 50  0000 C CNN
-F 1 "R" V 19291 6076 50  0000 C CNN
-F 2 "" V 19105 6076 50  0001 C CNN
-F 3 "~" H 19175 6076 50  0001 C CNN
-	1    19175 6076
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 5C383257
-P 19175 6176
-F 0 "R?" V 19382 6176 50  0000 C CNN
-F 1 "R" V 19291 6176 50  0000 C CNN
-F 2 "" V 19105 6176 50  0001 C CNN
-F 3 "~" H 19175 6176 50  0001 C CNN
-	1    19175 6176
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 5C3A279A
-P 19175 6276
-F 0 "R?" V 19382 6276 50  0000 C CNN
-F 1 "R" V 19291 6276 50  0000 C CNN
-F 2 "" V 19105 6276 50  0001 C CNN
-F 3 "~" H 19175 6276 50  0001 C CNN
-	1    19175 6276
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 5C3A27A1
-P 19175 6376
-F 0 "R?" V 19382 6376 50  0000 C CNN
-F 1 "R" V 19291 6376 50  0000 C CNN
-F 2 "" V 19105 6376 50  0001 C CNN
-F 3 "~" H 19175 6376 50  0001 C CNN
-	1    19175 6376
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 5C3A27A8
-P 19175 6476
-F 0 "R?" V 19382 6476 50  0000 C CNN
-F 1 "R" V 19291 6476 50  0000 C CNN
-F 2 "" V 19105 6476 50  0001 C CNN
-F 3 "~" H 19175 6476 50  0001 C CNN
-	1    19175 6476
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 5C3A27AF
-P 19175 6576
-F 0 "R?" V 19382 6576 50  0000 C CNN
-F 1 "R" V 19291 6576 50  0000 C CNN
-F 2 "" V 19105 6576 50  0001 C CNN
-F 3 "~" H 19175 6576 50  0001 C CNN
-	1    19175 6576
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 5C3C20B6
-P 19174 3900
-F 0 "R?" V 19381 3900 50  0000 C CNN
-F 1 "R" V 19290 3900 50  0000 C CNN
-F 2 "" V 19104 3900 50  0001 C CNN
-F 3 "~" H 19174 3900 50  0001 C CNN
-	1    19174 3900
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 5C3C20BD
-P 19174 4000
-F 0 "R?" V 19381 4000 50  0000 C CNN
-F 1 "R" V 19290 4000 50  0000 C CNN
-F 2 "" V 19104 4000 50  0001 C CNN
-F 3 "~" H 19174 4000 50  0001 C CNN
-	1    19174 4000
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 5C3C20C4
-P 19174 4100
-F 0 "R?" V 19381 4100 50  0000 C CNN
-F 1 "R" V 19290 4100 50  0000 C CNN
-F 2 "" V 19104 4100 50  0001 C CNN
-F 3 "~" H 19174 4100 50  0001 C CNN
-	1    19174 4100
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 5C3C20CB
-P 19174 4200
-F 0 "R?" V 19381 4200 50  0000 C CNN
-F 1 "R" V 19290 4200 50  0000 C CNN
-F 2 "" V 19104 4200 50  0001 C CNN
-F 3 "~" H 19174 4200 50  0001 C CNN
-	1    19174 4200
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 5C3C20D2
-P 19174 4300
-F 0 "R?" V 19381 4300 50  0000 C CNN
-F 1 "R" V 19290 4300 50  0000 C CNN
-F 2 "" V 19104 4300 50  0001 C CNN
-F 3 "~" H 19174 4300 50  0001 C CNN
-	1    19174 4300
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 5C3C20D9
-P 19174 4400
-F 0 "R?" V 19381 4400 50  0000 C CNN
-F 1 "R" V 19290 4400 50  0000 C CNN
-F 2 "" V 19104 4400 50  0001 C CNN
-F 3 "~" H 19174 4400 50  0001 C CNN
-	1    19174 4400
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 5C3C20E0
-P 19174 4500
-F 0 "R?" V 19381 4500 50  0000 C CNN
-F 1 "R" V 19290 4500 50  0000 C CNN
-F 2 "" V 19104 4500 50  0001 C CNN
-F 3 "~" H 19174 4500 50  0001 C CNN
-	1    19174 4500
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 5C3C20E7
-P 19174 4600
-F 0 "R?" V 19381 4600 50  0000 C CNN
-F 1 "R" V 19290 4600 50  0000 C CNN
-F 2 "" V 19104 4600 50  0001 C CNN
-F 3 "~" H 19174 4600 50  0001 C CNN
-	1    19174 4600
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	19327 6838 19327 2312
-Wire Wire Line
-	20381 1150 20381 2312
-Wire Wire Line
-	19327 2312 20381 2312
-Connection ~ 20381 2312
-Wire Wire Line
-	20381 2312 20382 2312
-$Comp
-L Switch:SW_Push SW?
-U 1 1 5C404A08
-P 6620 3760
-F 0 "SW?" H 6620 4045 50  0000 C CNN
-F 1 "SW_Push" H 6620 3954 50  0000 C CNN
-F 2 "" H 6620 3960 50  0001 C CNN
-F 3 "" H 6620 3960 50  0001 C CNN
-	1    6620 3760
-	1    0    0    -1  
-$EndComp
-$Comp
-L Switch:SW_Push SW?
-U 1 1 5C404E0F
-P 7181 3759
-F 0 "SW?" H 7181 4044 50  0000 C CNN
-F 1 "SW_Push" H 7181 3953 50  0000 C CNN
-F 2 "" H 7181 3959 50  0001 C CNN
-F 3 "" H 7181 3959 50  0001 C CNN
-	1    7181 3759
-	1    0    0    -1  
-$EndComp
-$Comp
-L Switch:SW_Push SW?
-U 1 1 5C414D05
-P 6611 4057
-F 0 "SW?" H 6611 4342 50  0000 C CNN
-F 1 "SW_Push" H 6611 4251 50  0000 C CNN
-F 2 "" H 6611 4257 50  0001 C CNN
-F 3 "" H 6611 4257 50  0001 C CNN
-	1    6611 4057
-	1    0    0    -1  
-$EndComp
-$Comp
-L Switch:SW_Push SW?
-U 1 1 5C414D0C
-P 7172 4056
-F 0 "SW?" H 7172 4341 50  0000 C CNN
-F 1 "SW_Push" H 7172 4250 50  0000 C CNN
-F 2 "" H 7172 4256 50  0001 C CNN
-F 3 "" H 7172 4256 50  0001 C CNN
-	1    7172 4056
-	1    0    0    -1  
-$EndComp
-$Comp
-L Switch:SW_Push SW?
-U 1 1 5C424C3C
-P 7691 3760
-F 0 "SW?" H 7691 4045 50  0000 C CNN
-F 1 "SW_Push" H 7691 3954 50  0000 C CNN
-F 2 "" H 7691 3960 50  0001 C CNN
-F 3 "" H 7691 3960 50  0001 C CNN
-	1    7691 3760
-	1    0    0    -1  
-$EndComp
-$Comp
-L Switch:SW_Push SW?
-U 1 1 5C424C43
-P 8252 3759
-F 0 "SW?" H 8252 4044 50  0000 C CNN
-F 1 "SW_Push" H 8252 3953 50  0000 C CNN
-F 2 "" H 8252 3959 50  0001 C CNN
-F 3 "" H 8252 3959 50  0001 C CNN
-	1    8252 3759
-	1    0    0    -1  
-$EndComp
-$Comp
-L Switch:SW_Push SW?
-U 1 1 5C424C4A
-P 7682 4057
-F 0 "SW?" H 7682 4342 50  0000 C CNN
-F 1 "SW_Push" H 7682 4251 50  0000 C CNN
-F 2 "" H 7682 4257 50  0001 C CNN
-F 3 "" H 7682 4257 50  0001 C CNN
-	1    7682 4057
-	1    0    0    -1  
-$EndComp
-$Comp
-L Switch:SW_Push SW?
-U 1 1 5C424C51
-P 8243 4056
-F 0 "SW?" H 8243 4341 50  0000 C CNN
-F 1 "SW_Push" H 8243 4250 50  0000 C CNN
-F 2 "" H 8243 4256 50  0001 C CNN
-F 3 "" H 8243 4256 50  0001 C CNN
-	1    8243 4056
-	1    0    0    -1  
-$EndComp
-$Comp
-L Switch:SW_Push SW?
-U 1 1 5C434BED
-P 6617 4420
-F 0 "SW?" H 6617 4705 50  0000 C CNN
-F 1 "SW_Push" H 6617 4614 50  0000 C CNN
-F 2 "" H 6617 4620 50  0001 C CNN
-F 3 "" H 6617 4620 50  0001 C CNN
-	1    6617 4420
-	1    0    0    -1  
-$EndComp
-$Comp
-L Switch:SW_Push SW?
-U 1 1 5C434BF4
-P 7178 4419
-F 0 "SW?" H 7178 4704 50  0000 C CNN
-F 1 "SW_Push" H 7178 4613 50  0000 C CNN
-F 2 "" H 7178 4619 50  0001 C CNN
-F 3 "" H 7178 4619 50  0001 C CNN
-	1    7178 4419
-	1    0    0    -1  
-$EndComp
-$Comp
-L Switch:SW_Push SW?
-U 1 1 5C434BFB
-P 6608 4717
-F 0 "SW?" H 6608 5002 50  0000 C CNN
-F 1 "SW_Push" H 6608 4911 50  0000 C CNN
-F 2 "" H 6608 4917 50  0001 C CNN
-F 3 "" H 6608 4917 50  0001 C CNN
-	1    6608 4717
-	1    0    0    -1  
-$EndComp
-$Comp
-L Switch:SW_Push SW?
-U 1 1 5C434C02
-P 7169 4716
-F 0 "SW?" H 7169 5001 50  0000 C CNN
-F 1 "SW_Push" H 7169 4910 50  0000 C CNN
-F 2 "" H 7169 4916 50  0001 C CNN
-F 3 "" H 7169 4916 50  0001 C CNN
-	1    7169 4716
-	1    0    0    -1  
-$EndComp
-$Comp
-L Switch:SW_Push SW?
-U 1 1 5C434C09
-P 7688 4420
-F 0 "SW?" H 7688 4705 50  0000 C CNN
-F 1 "SW_Push" H 7688 4614 50  0000 C CNN
-F 2 "" H 7688 4620 50  0001 C CNN
-F 3 "" H 7688 4620 50  0001 C CNN
-	1    7688 4420
-	1    0    0    -1  
-$EndComp
-$Comp
-L Switch:SW_Push SW?
-U 1 1 5C434C10
-P 8249 4419
-F 0 "SW?" H 8249 4704 50  0000 C CNN
-F 1 "SW_Push" H 8249 4613 50  0000 C CNN
-F 2 "" H 8249 4619 50  0001 C CNN
-F 3 "" H 8249 4619 50  0001 C CNN
-	1    8249 4419
-	1    0    0    -1  
-$EndComp
-$Comp
-L Switch:SW_Push SW?
-U 1 1 5C434C17
-P 7679 4717
-F 0 "SW?" H 7679 5002 50  0000 C CNN
-F 1 "SW_Push" H 7679 4911 50  0000 C CNN
-F 2 "" H 7679 4917 50  0001 C CNN
-F 3 "" H 7679 4917 50  0001 C CNN
-	1    7679 4717
-	1    0    0    -1  
-$EndComp
-$Comp
-L Switch:SW_Push SW?
-U 1 1 5C434C1E
-P 8240 4716
-F 0 "SW?" H 8240 5001 50  0000 C CNN
-F 1 "SW_Push" H 8240 4910 50  0000 C CNN
-F 2 "" H 8240 4916 50  0001 C CNN
-F 3 "" H 8240 4916 50  0001 C CNN
-	1    8240 4716
+U 1 1 5D06A0C4
+P 31284 9810
+F 0 "D?" H 31284 9934 50  0001 C CNN
+F 1 "D" H 31284 9935 50  0001 C CNN
+F 2 "" H 31284 9810 50  0001 C CNN
+F 3 "~" H 31284 9810 50  0001 C CNN
+	1    31284 9810
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6818 3760 6820 3760
+	31634 6460 31634 9310
 Wire Wire Line
-	6984 3760 6984 3759
-Connection ~ 6820 3760
+	31784 7010 31784 10560
+Wire Bus Line
+	29934 6110 29934 9010
 Wire Wire Line
-	6820 3760 6906 3760
+	11534 7660 11534 7760
+Connection ~ 11534 7660
 Wire Wire Line
-	6906 3760 6906 4876
+	11534 7560 11534 7660
+Connection ~ 11534 7560
 Wire Wire Line
-	6906 4876 6353 4876
-Connection ~ 6906 3760
+	11534 7460 11534 7560
+Connection ~ 11534 7460
 Wire Wire Line
-	6906 3760 6984 3760
+	11534 7360 11534 7460
+Connection ~ 11534 7360
 Wire Wire Line
-	7379 3759 7381 3759
+	11534 7260 11534 7360
+Connection ~ 11534 7260
 Wire Wire Line
-	7494 3759 7494 3758
-Connection ~ 7381 3759
+	11534 7160 11534 7260
 Wire Wire Line
-	7880 4057 7882 4057
-Wire Wire Line
-	8048 4057 8048 4054
-Connection ~ 7882 4057
-Wire Wire Line
-	7882 4057 7964 4057
-Connection ~ 7964 4057
-Wire Wire Line
-	7964 4057 8048 4057
-Wire Wire Line
-	7962 4057 7962 3760
-Wire Wire Line
-	7962 3760 7891 3760
-Connection ~ 7891 3760
-Wire Wire Line
-	7891 3760 7884 3760
-Wire Wire Line
-	8052 3759 7960 3759
-Wire Wire Line
-	7960 3759 7960 3761
+	11534 7060 11534 7160
+Connection ~ 11534 7160
+Connection ~ 11534 7060
 $Comp
-L Diode:BAY93 D?
-U 1 1 5C4D991D
-P 6203 4876
-F 0 "D?" H 6203 5092 50  0000 C CNN
-F 1 "BAY93" H 6203 5001 50  0000 C CNN
-F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 6203 4701 50  0001 C CNN
-F 3 "https://cdn-reichelt.de/documents/datenblatt/A400/BAY93_TFK.pdf" H 6203 4876 50  0001 C CNN
-	1    6203 4876
+L pmd-rescue:74LS373-74xx U?
+U 1 1 5C10F5D5
+P 11034 7560
+F 0 "U?" H 11034 8327 50  0000 C CNN
+F 1 "74LS373" H 11034 8236 50  0000 C CNN
+F 2 "" H 11034 7560 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS373" H 11034 7560 50  0001 C CNN
+	1    11034 7560
 	1    0    0    -1  
 $EndComp
-Connection ~ 6353 4876
-Wire Wire Line
-	6353 4876 6352 4876
+Text Label 2891 6326 0    50   ~ 0
+A0
+Text Label 2897 6426 0    50   ~ 0
+A1
+Text Label 2903 6534 0    50   ~ 0
+A2
+Text Label 2902 6630 0    50   ~ 0
+A3
+Text Label 875  7570 0    39   ~ 0
+M\~IO
 $Comp
-L Diode:BAY93 D?
-U 1 1 5C4EDEE3
-P 6204 4984
-F 0 "D?" H 6204 5200 50  0000 C CNN
-F 1 "BAY93" H 6204 5109 50  0000 C CNN
-F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 6204 4809 50  0001 C CNN
-F 3 "https://cdn-reichelt.de/documents/datenblatt/A400/BAY93_TFK.pdf" H 6204 4984 50  0001 C CNN
-	1    6204 4984
+L pmd-rescue:5OR-PMD U?
+U 1 1 5DE3AD6A
+P 1860 5302
+F 0 "U?" H 1835 5877 50  0000 C CNN
+F 1 "5OR" H 1835 5786 50  0000 C CNN
+F 2 "" H 1810 5352 50  0001 C CNN
+F 3 "" H 1810 5352 50  0001 C CNN
+	1    1860 5302
+	1    0    0    -1  
+$EndComp
+Text Label 1442 4962 0    39   ~ 0
+A15
+Text Label 1431 5023 0    39   ~ 0
+A14
+Text Label 1430 5073 0    39   ~ 0
+A13
+Text Label 1433 5124 0    39   ~ 0
+A12
+Text Label 1438 5178 0    39   ~ 0
+A10
+Text Label 1421 5233 0    39   ~ 0
+A5
+Text Label 1436 4910 0    39   ~ 0
+A4
+Text Label 1392 5510 0    39   ~ 0
+A11
+Text Label 1470 5570 0    39   ~ 0
+A9
+Text Label 1473 5621 0    39   ~ 0
+A8
+Text Label 1479 5667 0    39   ~ 0
+A7
+Text Label 1479 5714 0    39   ~ 0
+A6
+$Comp
+L pmd-rescue:6NOR-PMD U?
+U 1 1 5DF9DAE4
+P 1842 5957
+F 0 "U?" H 1842 6633 39  0000 C CNN
+F 1 "6NOR" H 1842 6558 39  0000 C CNN
+F 2 "" H 1842 5957 39  0001 C CNN
+F 3 "" H 1842 5957 39  0001 C CNN
+	1    1842 5957
 	1    0    0    -1  
 $EndComp
 $Comp
-L Diode:BAY93 D?
-U 1 1 5C501FEC
-P 6204 5091
-F 0 "D?" H 6204 5307 50  0000 C CNN
-F 1 "BAY93" H 6204 5216 50  0000 C CNN
-F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 6204 4916 50  0001 C CNN
-F 3 "https://cdn-reichelt.de/documents/datenblatt/A400/BAY93_TFK.pdf" H 6204 5091 50  0001 C CNN
-	1    6204 5091
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7442 4984 6354 4984
-Wire Wire Line
-	7442 3760 7442 4984
-Connection ~ 6354 4984
-Wire Wire Line
-	6354 4984 6353 4984
-Wire Wire Line
-	6353 5091 6354 5091
-Wire Wire Line
-	7964 4057 7964 5091
-Connection ~ 6354 5091
-Wire Wire Line
-	6354 5091 7964 5091
-Wire Wire Line
-	6807 4717 6808 4717
-Connection ~ 6808 4717
-Wire Wire Line
-	6809 4057 6811 4057
-Connection ~ 6811 4057
-Wire Wire Line
-	6811 4057 6975 4057
-Wire Wire Line
-	7370 4056 7372 4056
-Wire Wire Line
-	7484 4056 7484 4058
-Connection ~ 7372 4056
-Wire Wire Line
-	7375 4418 7491 4418
-Wire Wire Line
-	7491 4418 7491 4419
-Wire Wire Line
-	7366 4716 7369 4716
-Wire Wire Line
-	7480 4716 7480 4717
-Connection ~ 7369 4716
-Wire Wire Line
-	7369 4716 7480 4716
-Wire Wire Line
-	7877 4718 8042 4718
-Wire Wire Line
-	8042 4718 8042 4717
-Wire Wire Line
-	7886 4419 7886 4420
-Wire Wire Line
-	6417 4420 6286 4420
-Wire Wire Line
-	6286 3748 5851 3748
-Wire Wire Line
-	7381 3759 7494 3759
-Wire Wire Line
-	6808 4717 6972 4717
-Wire Wire Line
-	7372 4056 7484 4056
-Wire Wire Line
-	7886 4419 8049 4419
-Wire Wire Line
-	6815 4419 6978 4419
-Wire Wire Line
-	6413 4059 6286 4059
-Wire Wire Line
-	6286 3748 6286 3760
-Connection ~ 6286 4059
-Wire Wire Line
-	6286 4059 6286 4420
-Wire Wire Line
-	6418 3760 6286 3760
-Connection ~ 6286 3760
-Wire Wire Line
-	6286 3760 6286 4059
-$Comp
-L Diode:BAY93 D?
-U 1 1 5C7757E9
-P 5701 3748
-F 0 "D?" H 5701 3964 50  0000 C CNN
-F 1 "BAY93" H 5701 3873 50  0000 C CNN
-F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 5701 3573 50  0001 C CNN
-F 3 "https://cdn-reichelt.de/documents/datenblatt/A400/BAY93_TFK.pdf" H 5701 3748 50  0001 C CNN
-	1    5701 3748
-	1    0    0    -1  
-$EndComp
-Connection ~ 5851 3748
-Wire Wire Line
-	5851 3748 5850 3748
-$Comp
-L 74xx:74HCT574 U?
-U 1 1 5C7768A8
-P 5051 4248
-F 0 "U?" H 5051 5226 50  0000 C CNN
-F 1 "74HCT574" H 5051 5135 50  0000 C CNN
-F 2 "" H 5051 4248 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74HCT574" H 5051 4248 50  0001 C CNN
-	1    5051 4248
+L 74xx:74LS32 U?
+U 1 1 5E02C74C
+P 2680 5328
+F 0 "U?" H 2680 5653 50  0000 C CNN
+F 1 "74LS32" H 2680 5562 50  0000 C CNN
+F 2 "" H 2680 5328 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS32" H 2680 5328 50  0001 C CNN
+	1    2680 5328
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6054 4876 6053 4876
+	2160 5052 2269 5052
 Wire Wire Line
-	5857 4876 5857 3848
+	2269 5052 2269 5228
 Wire Wire Line
-	5857 3848 5551 3848
-Connection ~ 6053 4876
+	2269 5228 2380 5228
+Connection ~ 2380 5228
 Wire Wire Line
-	6053 4876 5857 4876
-Connection ~ 5551 3848
+	2380 5228 2382 5228
 Wire Wire Line
-	5551 3848 5550 3848
+	2381 5428 2380 5428
 Wire Wire Line
-	5549 3948 5551 3948
+	2219 5428 2219 5632
 Wire Wire Line
-	5755 3948 5755 4984
+	2219 5632 2166 5632
+Connection ~ 2380 5428
 Wire Wire Line
-	5755 4984 6054 4984
-Connection ~ 5551 3948
+	2380 5428 2219 5428
 Wire Wire Line
-	5551 3948 5755 3948
-Connection ~ 6054 4984
+	2980 5328 3046 5328
 Wire Wire Line
-	6054 4984 6055 4984
+	3046 5328 3046 5594
 Wire Wire Line
-	6055 5091 6054 5091
+	3046 5594 2751 5594
 Wire Wire Line
-	5686 5091 5686 4048
+	2751 5594 2751 7726
 Wire Wire Line
-	5686 4048 5551 4048
-Connection ~ 6054 5091
+	2751 7726 3044 7726
+Connection ~ 3044 7726
 Wire Wire Line
-	6054 5091 5686 5091
-Connection ~ 5551 4048
+	3044 7726 3047 7726
+Text GLabel 1363 5720 0    50   Input ~ 0
+"1"
 Wire Wire Line
-	5551 4048 5550 4048
-$Comp
-L afis_lib:74x244 U?
-U 1 1 5C7CE6F5
-P 9320 4068
-F 0 "U?" H 9320 4593 50  0000 C CNN
-F 1 "74x244" H 9320 4502 50  0000 C CNN
-F 2 "" H 9320 3968 50  0001 C CNN
-F 3 "" H 9320 3968 50  0001 C CNN
-	1    9320 4068
-	1    0    0    -1  
-$EndComp
+	1364 5720 1410 5720
 Wire Wire Line
-	8450 3759 8452 3759
+	1410 5720 1410 5732
 Wire Wire Line
-	8722 3759 8722 3768
+	1410 5732 1569 5732
 Wire Wire Line
-	8722 3768 9070 3768
-Connection ~ 8452 3759
+	1422 5731 1422 5782
 Wire Wire Line
-	8452 3759 8722 3759
-Connection ~ 9070 3768
+	1422 5782 1518 5782
 Wire Wire Line
-	9070 3768 9071 3768
+	10014 8061 10538 8061
 Wire Wire Line
-	9071 3818 9070 3818
+	9990 6426 9990 8190
 Wire Wire Line
-	8598 3818 8598 4056
-Connection ~ 9070 3818
+	9990 8190 13084 8190
 Wire Wire Line
-	9070 3818 8598 3818
-Connection ~ 8443 4056
+	13084 8190 13084 7960
 Wire Wire Line
-	8443 4056 8441 4056
+	9960 6525 9960 8244
 Wire Wire Line
-	9071 3868 9070 3868
+	9960 8244 15935 8244
 Wire Wire Line
-	8633 3868 8633 4419
+	15935 8244 15935 7960
 Wire Wire Line
-	8633 4419 8449 4419
-Connection ~ 9070 3868
+	9932 6626 9932 8302
 Wire Wire Line
-	9070 3868 8633 3868
+	9932 8302 18485 8302
 Wire Wire Line
-	8437 4716 8440 4716
+	18485 8302 18485 8010
 Wire Wire Line
-	8684 4716 8684 3918
+	9894 6726 9894 8331
 Wire Wire Line
-	8684 3918 9070 3918
-Connection ~ 8440 4716
+	9894 8331 20934 8331
 Wire Wire Line
-	8440 4716 8684 4716
-Connection ~ 9070 3918
+	20934 8331 20934 8110
 Wire Wire Line
-	9070 3918 9072 3918
+	4141 6326 4144 6326
 Wire Wire Line
-	8630 4420 8630 5120
+	10014 6326 10014 8061
+Connection ~ 4144 6326
 Wire Wire Line
-	8596 4054 8596 5172
+	4144 6326 10014 6326
 Wire Wire Line
-	8596 5172 8243 5172
-$Comp
-L Device:R R?
-U 1 1 5C8C2B23
-P 7693 5332
-F 0 "R?" V 7900 5332 50  0000 C CNN
-F 1 "R" V 7809 5332 50  0000 C CNN
-F 2 "" V 7623 5332 50  0001 C CNN
-F 3 "~" H 7693 5332 50  0001 C CNN
-	1    7693 5332
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 5C8E6991
-P 7693 5432
-F 0 "R?" V 7900 5432 50  0000 C CNN
-F 1 "R" V 7809 5432 50  0000 C CNN
-F 2 "" V 7623 5432 50  0001 C CNN
-F 3 "~" H 7693 5432 50  0001 C CNN
-	1    7693 5432
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 5C90A82C
-P 7693 5538
-F 0 "R?" V 7900 5538 50  0000 C CNN
-F 1 "R" V 7809 5538 50  0000 C CNN
-F 2 "" V 7623 5538 50  0001 C CNN
-F 3 "~" H 7693 5538 50  0001 C CNN
-	1    7693 5538
-	0    -1   -1   0   
-$EndComp
+	4143 6426 4144 6426
+Connection ~ 4144 6426
 Wire Wire Line
-	8007 5071 8007 5332
+	4144 6426 9990 6426
+Connection ~ 9990 6426
 Wire Wire Line
-	8007 5332 7843 5332
+	9990 6426 9991 6426
 Wire Wire Line
-	8007 5071 8682 5071
-Connection ~ 7843 5332
+	9959 6527 4142 6527
 Wire Wire Line
-	7843 5332 7842 5332
+	4142 6527 4142 6526
 Wire Wire Line
-	7841 5432 7843 5432
+	4143 6626 4144 6626
 Wire Wire Line
-	8052 5432 8052 5120
+	9931 6626 9931 6625
+Connection ~ 4144 6626
 Wire Wire Line
-	8052 5120 8630 5120
-Connection ~ 7843 5432
+	4144 6626 9931 6626
 Wire Wire Line
-	7843 5432 8052 5432
+	4140 6726 4144 6726
+Connection ~ 4144 6726
 Wire Wire Line
-	8244 5173 8079 5173
+	4144 6726 9894 6726
 Wire Wire Line
-	8079 5173 8079 5538
+	4142 6826 4144 6826
 Wire Wire Line
-	8079 5538 7844 5538
+	9864 6826 9864 8366
 Wire Wire Line
-	8552 3760 8552 5213
+	9864 8366 22932 8366
 Wire Wire Line
-	8552 5213 8117 5213
+	22932 8366 22932 8110
 Wire Wire Line
-	8117 5213 8117 5657
+	22932 8110 23134 8110
+Connection ~ 4144 6826
 Wire Wire Line
-	8117 5657 7838 5657
+	4144 6826 9864 6826
 Wire Wire Line
-	8443 4056 8598 4056
-$Comp
-L Device:R R?
-U 1 1 5C9CD038
-P 7688 5657
-F 0 "R?" V 7895 5657 50  0000 C CNN
-F 1 "R" V 7804 5657 50  0000 C CNN
-F 2 "" V 7618 5657 50  0001 C CNN
-F 3 "~" H 7688 5657 50  0001 C CNN
-	1    7688 5657
-	0    -1   -1   0   
-$EndComp
+	4143 6926 4144 6926
 Wire Wire Line
-	8682 4717 8682 5071
-NoConn ~ 7634 5558
+	9826 6926 9826 8410
 Wire Wire Line
-	7543 5332 7543 5432
-Connection ~ 7543 5432
+	9826 8410 25563 8410
 Wire Wire Line
-	7543 5432 7543 5538
-Connection ~ 7543 5538
+	25563 8410 25563 8159
 Wire Wire Line
-	7543 5538 7543 5844
-$Comp
-L power:VCC #PWR?
-U 1 1 5CA42359
-P 7543 5844
-F 0 "#PWR?" H 7543 5694 50  0001 C CNN
-F 1 "VCC" V 7561 5971 50  0000 L CNN
-F 2 "" H 7543 5844 50  0001 C CNN
-F 3 "" H 7543 5844 50  0001 C CNN
-	1    7543 5844
-	0    -1   -1   0   
-$EndComp
+	25563 8159 25686 8159
+Connection ~ 4144 6926
+Wire Wire Line
+	4144 6926 9826 6926
+Wire Wire Line
+	4145 7026 9786 7026
+Wire Wire Line
+	9786 7026 9786 8430
+Wire Wire Line
+	9786 8430 27767 8430
+Wire Wire Line
+	27767 8430 27767 8160
+Wire Wire Line
+	27767 8160 27884 8160
+Connection ~ 27884 8160
+Wire Wire Line
+	27884 8160 27885 8160
+Wire Wire Line
+	4143 7526 4144 7526
+Wire Wire Line
+	4143 7626 4144 7626
+Wire Wire Line
+	4142 7726 4144 7726
+Wire Wire Line
+	4142 7826 4144 7826
+Wire Wire Line
+	30135 10213 30135 10210
+Wire Wire Line
+	29731 10213 29731 10214
 Wire Bus Line
-	2592 2149 2592 827 
+	8706 10186 8984 10186
 Wire Bus Line
-	2592 827  17792 827 
+	8984 9010 8984 10186
+Connection ~ 8984 10186
 Wire Bus Line
-	17792 827  17792 2276
-Wire Bus Line
-	17792 2276 17676 2276
-Wire Bus Line
-	17676 3832 17723 3832
-Wire Bus Line
-	17723 3832 17723 4601
-Wire Bus Line
-	17676 2276 17676 3832
-Wire Bus Line
-	17721 4603 17552 4603
-Wire Bus Line
-	17552 4603 17552 5822
-Wire Bus Line
-	17552 5822 17723 5822
-Wire Bus Line
-	17723 5822 17723 6576
-Text Notes 2618 730  0    79   ~ 16
-Magistrala de date
-Text Notes 3858 729  0    79   ~ 16
-D7-D0
-Wire Bus Line
-	6894 826  6894 2150
-Wire Bus Line
-	6894 2150 6893 2150
-Wire Bus Line
-	4791 831  4791 2150
-Wire Bus Line
-	4791 2150 4790 2150
-Wire Bus Line
-	9092 832  9092 2147
-Wire Bus Line
-	11288 834  11288 2149
-Wire Bus Line
-	13494 2156 13494 828 
-Wire Bus Line
-	13494 828  13492 828 
-Wire Bus Line
-	15590 2152 15590 828 
-Wire Bus Line
-	15590 828  15588 828 
-Wire Bus Line
-	9570 3922 9570 3261
-Wire Bus Line
-	9570 3261 5694 3261
-Wire Bus Line
-	5694 3261 5694 3072
-Wire Bus Line
-	5694 3072 4554 3072
-Wire Bus Line
-	4554 3072 4554 4448
-Wire Bus Line
-	4590 3074 4590 829 
-Wire Bus Line
-	4590 829  4589 829 
+	8984 10186 28606 10186
+Wire Wire Line
+	9742 7126 9742 8457
+Wire Wire Line
+	9742 8457 29868 8457
+Wire Wire Line
+	29868 8457 29868 6660
+Wire Wire Line
+	4142 7126 4144 7126
+Connection ~ 4144 7126
+Wire Wire Line
+	4144 7126 9742 7126
+Wire Wire Line
+	4143 7226 4144 7226
+Wire Wire Line
+	9708 7226 9708 10213
+Wire Wire Line
+	9708 10213 29731 10213
+Connection ~ 4144 7226
+Wire Wire Line
+	4144 7226 9708 7226
+Connection ~ 29731 10213
+Wire Wire Line
+	29731 10213 30135 10213
+Wire Wire Line
+	8532 7326 8532 11736
+Wire Wire Line
+	8532 11736 8706 11736
+Wire Wire Line
+	4141 7326 4144 7326
+Connection ~ 4144 7326
+Wire Wire Line
+	4144 7326 8532 7326
+Connection ~ 8706 11736
+Wire Wire Line
+	8706 11736 8710 11736
+Wire Wire Line
+	4142 7425 8478 7425
+Wire Wire Line
+	8478 7425 8478 12120
+Wire Wire Line
+	8478 12120 27428 12120
+Wire Wire Line
+	27428 12120 27428 12118
+Wire Wire Line
+	27428 11336 27606 11336
+Connection ~ 27606 11336
+Wire Wire Line
+	27606 11336 27608 11336
+Wire Wire Line
+	27428 12118 31784 12118
+Wire Wire Line
+	31784 10560 31784 12118
+Connection ~ 27428 12118
+Wire Wire Line
+	27428 12118 27428 11336
+Wire Wire Line
+	1022 7527 3046 7527
 $EndSCHEMATC
