@@ -1,0 +1,177 @@
+EESchema Schematic File Version 4
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L cbm-steve:27C1024 U?
+U 1 1 5C0D6411
+P 2601 2393
+F 0 "U?" H 2601 3571 50  0000 C CNN
+F 1 "27C1024" H 2601 3480 50  0000 C CNN
+F 2 "" H 2601 2393 50  0000 C CNN
+F 3 "" H 2601 2393 50  0000 C CNN
+	1    2601 2393
+	1    0    0    -1  
+$EndComp
+$Comp
+L diana-rescue:62512-PMD U?
+U 1 1 5C0D6466
+P 4505 2447
+F 0 "U?" H 4505 1825 50  0000 C CNN
+F 1 "62512-PMD" H 4505 1734 50  0000 C CNN
+F 2 "" H 4505 1847 50  0001 C CNN
+F 3 "" H 4505 1847 50  0001 C CNN
+	1    4505 2447
+	1    0    0    -1  
+$EndComp
+$Comp
+L diana-rescue:62512-PMD U?
+U 1 1 5C0D64BD
+P 6011 2431
+F 0 "U?" H 6011 1809 50  0000 C CNN
+F 1 "62512-PMD" H 6011 1718 50  0000 C CNN
+F 2 "" H 6011 1831 50  0001 C CNN
+F 3 "" H 6011 1831 50  0001 C CNN
+	1    6011 2431
+	1    0    0    -1  
+$EndComp
+$Comp
+L diana-rescue:74AC11138-PMD Decodificator?
+U 1 1 5C0D656C
+P 2595 5447
+F 0 "Decodificator?" H 2595 6643 59  0000 C CNN
+F 1 "74AC11138-PMD" H 2595 6538 59  0000 C CNN
+F 2 "" H 2595 5297 59  0001 C CNN
+F 3 "" H 2595 5297 59  0001 C CNN
+	1    2595 5447
+	1    0    0    -1  
+$EndComp
+Wire Bus Line
+	1900 2993 1900 1122
+Wire Bus Line
+	1900 1122 5560 1122
+Wire Bus Line
+	5560 1122 5560 2231
+Wire Bus Line
+	4055 2248 4055 1124
+Wire Bus Line
+	3302 2993 3302 1250
+Wire Bus Line
+	4956 2247 4956 1343
+Wire Bus Line
+	6463 2231 6463 1207
+Wire Wire Line
+	711  3820 5561 3820
+Wire Wire Line
+	5561 3820 5561 2881
+Connection ~ 5561 2881
+Wire Wire Line
+	5561 2881 5561 2880
+Wire Wire Line
+	3912 3819 3912 2897
+Wire Wire Line
+	3912 2897 4055 2897
+Connection ~ 4055 2897
+Wire Wire Line
+	4055 2897 4058 2897
+Wire Wire Line
+	1758 3822 1758 3193
+Wire Wire Line
+	1758 3193 1901 3193
+Connection ~ 1901 3193
+Wire Wire Line
+	1901 3193 1902 3193
+NoConn ~ 5561 2282
+NoConn ~ 5561 2332
+NoConn ~ 5560 2381
+NoConn ~ 4054 2297
+NoConn ~ 4056 2346
+NoConn ~ 4055 2397
+$Comp
+L power:GND #PWR?
+U 1 1 5C0D7804
+P 4955 2447
+F 0 "#PWR?" H 4955 2197 50  0001 C CNN
+F 1 "GND" H 4960 2274 50  0000 C CNN
+F 2 "" H 4955 2447 50  0001 C CNN
+F 3 "" H 4955 2447 50  0001 C CNN
+	1    4955 2447
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5C0D78DE
+P 6461 2431
+F 0 "#PWR?" H 6461 2181 50  0001 C CNN
+F 1 "GND" H 6466 2258 50  0000 C CNN
+F 2 "" H 6461 2431 50  0001 C CNN
+F 3 "" H 6461 2431 50  0001 C CNN
+	1    6461 2431
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR?
+U 1 1 5C0D7975
+P 6061 1331
+F 0 "#PWR?" H 6061 1181 50  0001 C CNN
+F 1 "VCC" H 6078 1504 50  0000 C CNN
+F 2 "" H 6061 1331 50  0001 C CNN
+F 3 "" H 6061 1331 50  0001 C CNN
+	1    6061 1331
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR?
+U 1 1 5C0D7AAF
+P 4555 1349
+F 0 "#PWR?" H 4555 1199 50  0001 C CNN
+F 1 "VCC" H 4572 1522 50  0000 C CNN
+F 2 "" H 4555 1349 50  0001 C CNN
+F 3 "" H 4555 1349 50  0001 C CNN
+	1    4555 1349
+	1    0    0    -1  
+$EndComp
+Text Label 692  3776 0    50   ~ 0
+~RD
+Text Label 1751 4506 0    50   ~ 0
+A19
+Text Label 1744 4600 0    50   ~ 0
+A18
+Text Label 1742 4705 0    50   ~ 0
+A17
+Wire Wire Line
+	1894 5096 1819 5096
+Wire Wire Line
+	1819 5096 1819 5197
+Wire Wire Line
+	1819 5197 1895 5197
+Connection ~ 1895 5197
+Wire Wire Line
+	1895 5197 1897 5197
+Wire Wire Line
+	1816 5146 1725 5146
+Wire Wire Line
+	1725 5146 1725 5257
+$Comp
+L power:GND #PWR?
+U 1 1 5C0D7FF7
+P 1725 5257
+F 0 "#PWR?" H 1725 5007 50  0001 C CNN
+F 1 "GND" H 1730 5084 50  0000 C CNN
+F 2 "" H 1725 5257 50  0001 C CNN
+F 3 "" H 1725 5257 50  0001 C CNN
+	1    1725 5257
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

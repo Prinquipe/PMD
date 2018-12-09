@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
 LIBS:afis-cache
-LIBS:pmd-cache
 EELAYER 26 0
 EELAYER END
 $Descr A1 33110 23386
@@ -16,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L pmd-rescue:HD7731-Display_Character D?
+L afis-rescue:HD7731-Display_Character-pmd-rescue D?
 U 1 1 5C10F59D
 P 11384 6160
 F 0 "D?" H 10934 7777 50  0000 C CNN
@@ -27,7 +26,7 @@ F 3 "http://usasyck.com/products/AD-121F2_cat_e.pdf" H 10934 6960 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L pmd-rescue:HD7731-Display_Character D?
+L afis-rescue:HD7731-Display_Character-pmd-rescue D?
 U 1 1 5C10F5A4
 P 13934 6160
 F 0 "D?" H 13484 7777 50  0000 C CNN
@@ -38,7 +37,7 @@ F 3 "http://usasyck.com/products/AD-121F2_cat_e.pdf" H 13484 6960 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L pmd-rescue:HD7731-Display_Character D?
+L afis-rescue:HD7731-Display_Character-pmd-rescue D?
 U 1 1 5C10F5AB
 P 16634 6160
 F 0 "D?" H 16184 7777 50  0000 C CNN
@@ -49,7 +48,7 @@ F 3 "http://usasyck.com/products/AD-121F2_cat_e.pdf" H 16184 6960 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L pmd-rescue:HD7731-Display_Character D?
+L afis-rescue:HD7731-Display_Character-pmd-rescue D?
 U 1 1 5C10F5B2
 P 19234 6160
 F 0 "D?" H 18784 7777 50  0000 C CNN
@@ -60,7 +59,7 @@ F 3 "http://usasyck.com/products/AD-121F2_cat_e.pdf" H 18784 6960 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L pmd-rescue:HD7731-Display_Character D?
+L afis-rescue:HD7731-Display_Character-pmd-rescue D?
 U 1 1 5C10F5B9
 P 21684 6160
 F 0 "D?" H 21234 7777 50  0000 C CNN
@@ -71,7 +70,7 @@ F 3 "http://usasyck.com/products/AD-121F2_cat_e.pdf" H 21234 6960 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L pmd-rescue:HD7731-Display_Character D?
+L afis-rescue:HD7731-Display_Character-pmd-rescue D?
 U 1 1 5C10F5C0
 P 24034 6160
 F 0 "D?" H 23584 7777 50  0000 C CNN
@@ -82,7 +81,7 @@ F 3 "http://usasyck.com/products/AD-121F2_cat_e.pdf" H 23584 6960 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L pmd-rescue:HD7731-Display_Character D?
+L afis-rescue:HD7731-Display_Character-pmd-rescue D?
 U 1 1 5C10F5C7
 P 26334 6160
 F 0 "D?" H 25884 7777 50  0000 C CNN
@@ -93,7 +92,7 @@ F 3 "http://usasyck.com/products/AD-121F2_cat_e.pdf" H 25884 6960 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L pmd-rescue:HD7731-Display_Character D?
+L afis-rescue:HD7731-Display_Character-pmd-rescue D?
 U 1 1 5C10F5CE
 P 28784 6160
 F 0 "D?" H 28334 7777 50  0000 C CNN
@@ -104,7 +103,7 @@ F 3 "http://usasyck.com/products/AD-121F2_cat_e.pdf" H 28334 6960 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L pmd-rescue:74LS373-74xx U?
+L afis-rescue:74LS373-74xx-pmd-rescue U?
 U 1 1 5C10F5DC
 P 13584 7460
 F 0 "U?" H 13584 8227 50  0000 C CNN
@@ -115,7 +114,7 @@ F 3 "http://www.ti.com/lit/gpn/sn74LS373" H 13584 7460 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L pmd-rescue:74LS373-74xx U?
+L afis-rescue:74LS373-74xx-pmd-rescue U?
 U 1 1 5C10F5E3
 P 16434 7460
 F 0 "U?" H 16434 8227 50  0000 C CNN
@@ -126,7 +125,7 @@ F 3 "http://www.ti.com/lit/gpn/sn74LS373" H 16434 7460 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L pmd-rescue:74LS373-74xx U?
+L afis-rescue:74LS373-74xx-pmd-rescue U?
 U 1 1 5C10F5EA
 P 18984 7510
 F 0 "U?" H 18984 8277 50  0000 C CNN
@@ -137,7 +136,7 @@ F 3 "http://www.ti.com/lit/gpn/sn74LS373" H 18984 7510 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L pmd-rescue:74LS373-74xx U?
+L afis-rescue:74LS373-74xx-pmd-rescue U?
 U 1 1 5C10F5F1
 P 21434 7610
 F 0 "U?" H 21434 8377 50  0000 C CNN
@@ -148,7 +147,7 @@ F 3 "http://www.ti.com/lit/gpn/sn74LS373" H 21434 7610 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L pmd-rescue:74LS373-74xx U?
+L afis-rescue:74LS373-74xx-pmd-rescue U?
 U 1 1 5C10F5F8
 P 23634 7610
 F 0 "U?" H 23634 8377 50  0000 C CNN
@@ -159,7 +158,7 @@ F 3 "http://www.ti.com/lit/gpn/sn74LS373" H 23634 7610 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L pmd-rescue:74LS373-74xx U?
+L afis-rescue:74LS373-74xx-pmd-rescue U?
 U 1 1 5C10F5FF
 P 26184 7660
 F 0 "U?" H 26184 8427 50  0000 C CNN
@@ -170,7 +169,7 @@ F 3 "http://www.ti.com/lit/gpn/sn74LS373" H 26184 7660 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L pmd-rescue:74LS373-74xx U?
+L afis-rescue:74LS373-74xx-pmd-rescue U?
 U 1 1 5C10F606
 P 28384 7660
 F 0 "U?" H 28384 8427 50  0000 C CNN
@@ -683,7 +682,6 @@ Wire Wire Line
 	12534 4960 12534 4810
 Wire Wire Line
 	12534 5810 12534 4960
-Connection ~ 9984 4360
 Connection ~ 9984 4810
 Wire Wire Line
 	9984 4810 9984 4360
@@ -694,7 +692,7 @@ Wire Wire Line
 	9984 5810 9984 4960
 Connection ~ 27384 4360
 $Comp
-L pmd-rescue:74LS373-74xx U?
+L afis-rescue:74LS373-74xx-pmd-rescue U?
 U 1 1 5C1D1100
 P 30634 6260
 F 0 "U?" H 30634 7027 50  0000 C CNN
@@ -705,7 +703,7 @@ F 3 "http://www.ti.com/lit/gpn/sn74LS373" H 30634 6260 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L pmd-rescue:74LS373-74xx U?
+L afis-rescue:74LS373-74xx-pmd-rescue U?
 U 1 1 5C29341E
 P 30634 9810
 F 0 "U?" H 30634 10577 50  0000 C CNN
@@ -716,7 +714,7 @@ F 3 "http://www.ti.com/lit/gpn/sn74LS373" H 30634 9810 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L pmd-rescue:74LS373-74xx U?
+L afis-rescue:74LS373-74xx-pmd-rescue U?
 U 1 1 5C2C3D60
 P 9206 11236
 F 0 "U?" H 9206 12003 50  0000 C CNN
@@ -1140,10 +1138,8 @@ Wire Bus Line
 Connection ~ 10384 9010
 Wire Bus Line
 	10384 9010 8984 9010
-Wire Wire Line
-	9684 4360 9984 4360
 $Comp
-L pmd-rescue:74LS244N-74xx U?
+L afis-rescue:74LS244N-74xx-pmd-rescue U?
 U 1 1 5DF5E0B4
 P 28106 11036
 F 0 "U?" H 28106 11603 50  0000 C CNN
@@ -1600,7 +1596,7 @@ Wire Wire Line
 Wire Bus Line
 	8706 10186 8706 11436
 $Comp
-L pmd-rescue:74159-74xx_IEEE U?
+L afis-rescue:74159-74xx_IEEE-pmd-rescue U?
 U 1 1 5FC4A75D
 P 3594 7126
 F 0 "U?" H 3594 8242 50  0001 C CNN
@@ -1724,7 +1720,7 @@ Wire Wire Line
 Connection ~ 11534 7160
 Connection ~ 11534 7060
 $Comp
-L pmd-rescue:74LS373-74xx U?
+L afis-rescue:74LS373-74xx-pmd-rescue U?
 U 1 1 5C10F5D5
 P 11034 7560
 F 0 "U?" H 11034 8327 50  0000 C CNN
@@ -1745,7 +1741,7 @@ A3
 Text Label 875  7570 0    39   ~ 0
 M\~IO
 $Comp
-L pmd-rescue:5OR-PMD U?
+L afis-rescue:5OR-PMD-pmd-rescue U?
 U 1 1 5DE3AD6A
 P 1860 5302
 F 0 "U?" H 1835 5877 50  0000 C CNN
@@ -1780,7 +1776,7 @@ A7
 Text Label 1479 5714 0    39   ~ 0
 A6
 $Comp
-L pmd-rescue:6NOR-PMD U?
+L afis-rescue:6NOR-PMD-pmd-rescue U?
 U 1 1 5DF9DAE4
 P 1842 5957
 F 0 "U?" H 1842 6633 39  0000 C CNN
@@ -2016,4 +2012,48 @@ Wire Wire Line
 	27428 12118 27428 11336
 Wire Wire Line
 	1022 7527 3046 7527
+$Comp
+L Device:R_Small Rez_8x?
+U 1 1 5C0F977B
+P 31534 10010
+F 0 "Rez_8x?" V 31638 10010 50  0001 C CNN
+F 1 "R_Small" V 31639 10010 50  0001 C CNN
+F 2 "" H 31534 10010 50  0001 C CNN
+F 3 "~" H 31534 10010 50  0001 C CNN
+	1    31534 10010
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_Small Rez_8x?
+U 1 1 5C0F9781
+P 31534 9910
+F 0 "Rez_8x?" V 31638 9910 50  0001 C CNN
+F 1 "R_Small" V 31639 9910 50  0001 C CNN
+F 2 "" H 31534 9910 50  0001 C CNN
+F 3 "~" H 31534 9910 50  0001 C CNN
+	1    31534 9910
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 5C0F9787
+P 31284 9910
+F 0 "D?" H 31284 10034 50  0001 C CNN
+F 1 "D" H 31284 10035 50  0001 C CNN
+F 2 "" H 31284 9910 50  0001 C CNN
+F 3 "~" H 31284 9910 50  0001 C CNN
+	1    31284 9910
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 5C0F978D
+P 31284 10010
+F 0 "D?" H 31284 10134 50  0001 C CNN
+F 1 "D" H 31284 10135 50  0001 C CNN
+F 2 "" H 31284 10010 50  0001 C CNN
+F 3 "~" H 31284 10010 50  0001 C CNN
+	1    31284 10010
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

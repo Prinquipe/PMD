@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name afis-rescue)(type Legacy)(uri ${KIPRJMOD}/afis-rescue.lib)(options "")(descr ""))
+)

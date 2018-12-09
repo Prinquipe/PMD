@@ -26,13 +26,7 @@ F 3 "" H 8046 2436 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Bus Line
-	2171 1682 5445 1682
-Wire Bus Line
-	5445 1682 5445 2987
-Wire Bus Line
 	2922 1687 2922 3619
-Wire Bus Line
-	4320 2115 4321 2115
 Wire Bus Line
 	8498 2837 8498 2086
 Wire Bus Line
@@ -49,36 +43,6 @@ F 3 "" H 3486 5929 59  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L cbm-steve:27C512 U?
-U 1 1 5C0D0CE3
-P 3618 3004
-F 0 "U?" H 3618 4182 50  0000 C CNN
-F 1 "27C512" H 3618 4091 50  0000 C CNN
-F 2 "" H 3618 3004 50  0000 C CNN
-F 3 "" H 3618 3004 50  0000 C CNN
-	1    3618 3004
-	1    0    0    -1  
-$EndComp
-Wire Bus Line
-	4328 1961 4328 2801
-Wire Bus Line
-	4328 2801 4322 2801
-$Comp
-L cbm-steve:27C512 U?
-U 1 1 5C0D10AF
-P 6146 2988
-F 0 "U?" H 6146 4166 50  0000 C CNN
-F 1 "27C512" H 6146 4075 50  0000 C CNN
-F 2 "" H 6146 2988 50  0000 C CNN
-F 3 "" H 6146 2988 50  0000 C CNN
-	1    6146 2988
-	1    0    0    -1  
-$EndComp
-Wire Bus Line
-	5448 2988 5448 3588
-Wire Bus Line
-	6846 2789 6846 1882
-$Comp
 L diana-rescue:62512-PMD U?
 U 1 1 5C0D1547
 P 9330 3032
@@ -89,9 +53,6 @@ F 3 "" H 9330 2432 50  0001 C CNN
 	1    9330 3032
 	1    0    0    -1  
 $EndComp
-Wire Bus Line
-	8880 1682 5445 1682
-Connection ~ 5445 1682
 Wire Bus Line
 	7595 1683 7594 1683
 Wire Bus Line
@@ -183,12 +144,7 @@ Connection ~ 5448 4487
 Wire Wire Line
 	5448 4487 8755 4487
 Wire Wire Line
-	2920 3904 2918 3904
-Wire Wire Line
 	2628 3904 2628 4485
-Connection ~ 2918 3904
-Wire Wire Line
-	2918 3904 2628 3904
 Text Label 1983 4465 0    50   ~ 0
 ~RD
 Wire Wire Line
@@ -260,14 +216,9 @@ Wire Wire Line
 	4542 4259 2686 4259
 Wire Wire Line
 	2686 4259 2686 3804
-Wire Wire Line
-	2686 3804 2918 3804
 Connection ~ 4542 5629
 Wire Wire Line
 	4542 5629 5298 5629
-Connection ~ 2918 3804
-Wire Wire Line
-	2918 3804 2920 3804
 Wire Wire Line
 	4184 5729 4186 5729
 Wire Wire Line
@@ -295,10 +246,6 @@ Wire Wire Line
 	7190 4647 8685 4647
 Text Notes 2217 1539 0    50   ~ 0
 Magistrala de adrese
-Text Notes 4419 2472 1    50   ~ 0
-D15-D8
-Text Notes 6957 2505 1    50   ~ 0
-D7-D0
 Text Notes 8577 2514 1    50   ~ 0
 D15-D0
 Text Notes 9873 2535 1    50   ~ 0
@@ -334,4 +281,57 @@ Wire Wire Line
 	4185 5659 4185 5728
 Text Label 5850 5850 0    50   ~ 0
 A16
+Wire Bus Line
+	5448 2988 5448 3588
+Text Notes 4419 2472 1    50   ~ 0
+D15-D8
+Wire Bus Line
+	4320 2115 4321 2115
+Text Notes 6957 2505 1    50   ~ 0
+D7-D0
+Wire Bus Line
+	6846 2789 6846 1882
+$Comp
+L cbm-steve:27C512 U?
+U 1 1 5C0D10AF
+P 6146 2988
+F 0 "U?" H 6146 4166 50  0000 C CNN
+F 1 "27C512" H 6146 4075 50  0000 C CNN
+F 2 "" H 6146 2988 50  0000 C CNN
+F 3 "" H 6146 2988 50  0000 C CNN
+	1    6146 2988
+	1    0    0    -1  
+$EndComp
+Wire Bus Line
+	4328 2801 4322 2801
+Wire Bus Line
+	4328 1961 4328 2801
+Wire Wire Line
+	2918 3904 2628 3904
+Wire Wire Line
+	2920 3904 2918 3904
+Connection ~ 2918 3904
+Wire Wire Line
+	2918 3804 2920 3804
+Wire Wire Line
+	2686 3804 2918 3804
+Connection ~ 2918 3804
+$Comp
+L cbm-steve:27C512 U?
+U 1 1 5C0D0CE3
+P 3618 3004
+F 0 "U?" H 3618 4182 50  0000 C CNN
+F 1 "27C512" H 3618 4091 50  0000 C CNN
+F 2 "" H 3618 3004 50  0000 C CNN
+F 3 "" H 3618 3004 50  0000 C CNN
+	1    3618 3004
+	1    0    0    -1  
+$EndComp
+Wire Bus Line
+	8880 1682 5445 1682
+Wire Bus Line
+	2171 1682 5445 1682
+Connection ~ 5445 1682
+Wire Bus Line
+	5445 1682 5445 2987
 $EndSCHEMATC

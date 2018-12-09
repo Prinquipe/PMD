@@ -273,22 +273,14 @@ Wire Wire Line
 Wire Wire Line
 	6981 5729 6981 5728
 Wire Wire Line
-	6981 3286 7596 3286
-Connection ~ 4186 5729
-Wire Wire Line
-	4186 5729 6981 5729
+	6981 3286 6982 3286
 Connection ~ 7596 3286
 Wire Wire Line
 	7596 3286 7598 3286
 Wire Wire Line
-	6981 5728 8650 5728
-Wire Wire Line
 	8650 5728 8650 3282
 Wire Wire Line
 	8650 3282 8880 3282
-Connection ~ 6981 5728
-Wire Wire Line
-	6981 5728 6981 3286
 Connection ~ 8880 3282
 Wire Wire Line
 	8880 3282 8881 3282
@@ -311,4 +303,35 @@ Text Notes 8577 2514 1    50   ~ 0
 D15-D0
 Text Notes 9873 2535 1    50   ~ 0
 D15-D0
+$Comp
+L 74xGxx:74AUC1G18 U?
+U 1 1 5C0D378E
+P 6211 5659
+F 0 "U?" H 6211 5926 50  0000 C CNN
+F 1 "74AUC1G18" H 6211 5835 50  0000 C CNN
+F 2 "" H 6211 5659 50  0001 C CNN
+F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 6211 5659 50  0001 C CNN
+	1    6211 5659
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6410 5728 6410 5709
+Wire Wire Line
+	6410 5728 6981 5728
+Connection ~ 6981 5728
+Wire Wire Line
+	6981 5728 8650 5728
+Wire Wire Line
+	6411 5609 6982 5609
+Wire Wire Line
+	6982 5609 6982 3286
+Connection ~ 6982 3286
+Wire Wire Line
+	6982 3286 7596 3286
+Wire Wire Line
+	6011 5659 4185 5659
+Wire Wire Line
+	4185 5659 4185 5728
+Text Label 5850 5850 0    50   ~ 0
+A16
 $EndSCHEMATC
