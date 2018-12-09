@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name pmd-rescue)(type Legacy)(uri ${KIPRJMOD}/pmd-rescue.lib)(options "")(descr ""))
+)
