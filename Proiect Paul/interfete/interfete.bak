@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:pmd2-cache
 EELAYER 26 0
 EELAYER END
 $Descr A2 23386 16535
@@ -404,17 +403,6 @@ Wire Wire Line
 	4421 2247 4651 2247
 Wire Wire Line
 	4651 2247 4651 2252
-$Comp
-L PMD:5OR U?
-U 1 1 5C110C18
-P 1245 4284
-F 0 "U?" H 1245 4859 50  0000 C CNN
-F 1 "5OR" H 1245 4768 50  0000 C CNN
-F 2 "" H 1195 4334 50  0001 C CNN
-F 3 "" H 1195 4334 50  0001 C CNN
-	1    1245 4284
-	1    0    0    -1  
-$EndComp
 Text Label 762  3945 0    50   ~ 0
 A15
 Text Label 768  4011 0    50   ~ 0
@@ -533,64 +521,32 @@ Wire Wire Line
 	1417 5073 1745 5073
 Wire Wire Line
 	1122 5356 1225 5356
-$Comp
-L PMD:OR1 U?
-U 1 1 5C2428A1
-P 1414 5676
-F 0 "U?" H 1691 5977 50  0000 L CNN
-F 1 "OR1" H 1691 5886 50  0000 L CNN
-F 2 "" H 1414 5676 50  0001 C CNN
-F 3 "" H 1414 5676 50  0001 C CNN
-	1    1414 5676
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	1221 5456 1276 5456
 Wire Wire Line
 	1276 5456 1276 5326
-Wire Wire Line
-	1276 5326 1314 5326
 Connection ~ 1221 5456
-Connection ~ 1314 5326
-Wire Wire Line
-	1314 5326 1316 5326
 Wire Wire Line
 	1221 5354 1253 5354
 Wire Wire Line
 	1253 5354 1253 5525
 Wire Wire Line
-	1253 5525 1316 5525
+	1253 5525 1315 5525
 Wire Wire Line
 	1695 5406 1695 5423
 Wire Wire Line
 	1695 5423 1663 5423
 Wire Wire Line
 	1695 5406 1850 5406
-$Comp
-L PMD:3OR U?
-U 1 1 5C25B640
-P 2267 4548
-F 0 "U?" H 2377 5423 50  0000 C CNN
-F 1 "3OR" H 2377 5332 50  0000 C CNN
-F 2 "" H 2267 4548 50  0001 C CNN
-F 3 "" H 2267 4548 50  0001 C CNN
-	1    2267 4548
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	2492 5151 2493 5151
 Wire Wire Line
 	2584 5151 2584 4416
 Wire Wire Line
 	2584 4416 2117 4416
-Wire Wire Line
-	2117 4416 2117 4198
 Connection ~ 2493 5151
 Wire Wire Line
 	2493 5151 2584 5151
-Connection ~ 2117 4198
-Wire Wire Line
-	2117 4198 2117 4197
 Wire Wire Line
 	1407 4628 2002 4628
 Wire Wire Line
@@ -598,14 +554,9 @@ Wire Wire Line
 Wire Wire Line
 	2002 4048 2117 4048
 Wire Wire Line
-	1544 4034 1545 4034
-Wire Wire Line
 	1941 4034 1941 3898
 Wire Wire Line
 	1941 3898 2117 3898
-Connection ~ 1545 4034
-Wire Wire Line
-	1545 4034 1941 4034
 Wire Wire Line
 	2638 4048 2855 4048
 Wire Wire Line
@@ -1020,4 +971,49 @@ Wire Wire Line
 Connection ~ 14423 4517
 Connection ~ 14429 3236
 Connection ~ 14429 2601
+Wire Wire Line
+	1276 5326 1316 5326
+Wire Wire Line
+	2117 4197 2117 4416
+Wire Wire Line
+	1544 4034 1545 4034
+$Comp
+L pmd2-cache:PMD_5OR U?
+U 1 1 5C13369D
+P 1245 4284
+F 0 "U?" H 1220 4859 50  0000 C CNN
+F 1 "PMD_5OR" H 1220 4768 50  0000 C CNN
+F 2 "" H 1195 4334 50  0001 C CNN
+F 3 "" H 1195 4334 50  0001 C CNN
+	1    1245 4284
+	1    0    0    -1  
+$EndComp
+Connection ~ 1545 4034
+Wire Wire Line
+	1545 4034 1941 4034
+$Comp
+L pmd2-cache:PMD_OR1 U?
+U 1 1 5C133B67
+P 1415 5675
+F 0 "U?" H 1693 5976 50  0000 L CNN
+F 1 "PMD_OR1" H 1693 5885 50  0000 L CNN
+F 2 "" H 1415 5675 50  0001 C CNN
+F 3 "" H 1415 5675 50  0001 C CNN
+	1    1415 5675
+	1    0    0    -1  
+$EndComp
+Connection ~ 1315 5525
+Wire Wire Line
+	1315 5525 1316 5525
+$Comp
+L pmd2-cache:PMD_3OR U?
+U 1 1 5C146B84
+P 2266 4547
+F 0 "U?" H 2376 5422 50  0000 C CNN
+F 1 "PMD_3OR" H 2376 5331 50  0000 C CNN
+F 2 "" H 2266 4547 50  0001 C CNN
+F 3 "" H 2266 4547 50  0001 C CNN
+	1    2266 4547
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
